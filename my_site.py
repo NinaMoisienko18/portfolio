@@ -369,11 +369,31 @@ if selected == "Analysis of space travelers":
 
 
     dataset_space = pd.read_csv("dataset_anls.csv", delimiter=";")
+
+    dataset_space["Date"] = pd.to_datetime(dataset_space["Date"], format="%d.%m.%Y")
+
+    dataset_space["Year"] = dataset_space["Date"].dt.year
+    new_dataframe_1 = dataset_space.drop(columns=["Date"]).copy()
+    new_dataframe_1 = new_dataframe_1.rename(columns={"Year": "Date"})
+
+    with st.sidebar:
+        st.write("")
+  
+        st.write('**Selecting a range of years**')
+        min_year = new_dataframe_1['Date'].min()
+        max_year = new_dataframe_1['Date'].max()
+        start_year, end_year = st.slider('Select the start and end years',
+                                        min_value=min_year,
+                                        max_value=max_year,
+                                        value=(min_year, max_year))
+
+
+    new_dataframe = new_dataframe_1[(new_dataframe_1['Date'] >= start_year) & (new_dataframe_1['Date'] <= end_year)]
     st.write(dataset_space)
     st.write("")
     st.write("")
     st.subheader("Create interactive graph for count of flights for each country")
-    country_flight_count = dataset_space.groupby("Launching Country")["Flight "].nunique() # nunique() - return the number of these unique values
+    country_flight_count = new_dataframe.groupby("Launching Country")["Flight "].nunique() # nunique() - return the number of these unique values
     sorted_data = country_flight_count.sort_values(ascending=False) #sort values from higher to lower
 
 
@@ -397,28 +417,6 @@ if selected == "Analysis of space travelers":
     st.write("")
     st.write("")   
     st.subheader("Create graph grouped flights by years")
-    dataset_space["Date"] = pd.to_datetime(dataset_space["Date"], format="%d.%m.%Y")
-
-    dataset_space["Year"] = dataset_space["Date"].dt.year
-    new_dataframe_1 = dataset_space.drop(columns=["Date"]).copy()
-    new_dataframe_1 = new_dataframe_1.rename(columns={"Year": "Date"})
-    
-    
-
-    with st.sidebar:
-        st.write("")
-  
-        st.write('**Selecting a range of years**')
-        min_year = new_dataframe_1['Date'].min()
-        max_year = new_dataframe_1['Date'].max()
-        start_year, end_year = st.slider('Select the start and end years',
-                                        min_value=min_year,
-                                        max_value=max_year,
-                                        value=(min_year, max_year))
-
-
-    new_dataframe = new_dataframe_1[(new_dataframe_1['Date'] >= start_year) & (new_dataframe_1['Date'] <= end_year)]
-
 
     years_flight_count = new_dataframe.groupby("Date")["Flight "].nunique()
     sorted_data = years_flight_count.sort_values(ascending=False)
