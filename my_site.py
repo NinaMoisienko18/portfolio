@@ -397,9 +397,6 @@ if selected == "Analysis of space travelers":
     sorted_data = country_flight_count.sort_values(ascending=False) #sort values from higher to lower
 
 
-
-
-
     chart = px.bar(sorted_data, x=sorted_data.index, y='Flight ', color_discrete_sequence=["#023271"]) #create bar
     chart.update_xaxes(tickangle=0) #rotation of country for convinient reading
     chart.update_layout(width=1170, height=600) #set width and height
@@ -477,6 +474,29 @@ if selected == "Analysis of space travelers":
     st.write("According to the pie chart, men make up a larger percentage than women, suggesting that men may be more resilient in space due to their prior training and greater physical resistance.The difference between them is almost 90%.")
     st.write("")
     st.write("")
+    st.subheader("Create bar graph to display tourist flights")
+    
+    
+    # dt = df.groupby(["Flight ", "Date"])["Launching Country"].count()
+    # st.write(dt)
+    
+    flights = df["Flight "].unique()
+    # st.write(flights)
+    
+    dt = df.groupby("Launching Country")["Flight "].nunique()
+    # st.write(dt)
+    dt = dt.reset_index()
+    dt = dt.rename(columns={"Flight ": "Count"})
+
+    # Побудова графіку
+    chart = px.bar(dt, x='Launching Country', y='Count', title='Count of flights',
+                    text='Count')
+    chart.update_traces(textfont_size=35) 
+    st.plotly_chart(chart, use_container_width=True)
+
+    st.write("")
+    st.write("")
+    
     st.subheader("Create bar graph to display tourists by gender")
     df = new_dataframe.loc[new_dataframe["Status"] == "tourist"]
 
