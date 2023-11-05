@@ -30,6 +30,7 @@ st.markdown(
 with st.sidebar:
     
     selected = st.selectbox("Select a project", ["Analysis of world religions", "Analysis of space travelers"])
+    
 
     
 
@@ -272,7 +273,7 @@ if selected =="Analysis of world religions":
     st.write("")
     
     
-    with open('dataset/Religios.txt', 'r') as f:
+    with open('Religios.txt', 'r') as f:
         religios_text = f.read()
         
     stopwords = set(STOPWORDS)
