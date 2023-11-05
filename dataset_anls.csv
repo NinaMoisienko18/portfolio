@@ -1,0 +1,645 @@
+﻿#;Name;Nationality;Date;Flight ;Launching Country;Successful or failed or upcoiming;Time in space(generally for person) DD:HH:MM ;Gender;Status;Years of a person during the flight
+1;Yuri Gagarin;Soviet Union;12.04.1961;Vostok 1;Soviet Union;successful;00:01:48;M;Space career;27
+2;Alan Shepard;United States;05.05.1961;Freedom 7;United States;successful;00:15:28;M;Space career;34
+3;Virgil Grissom;United States;21.07.1961;Liberty Bell 7;United States;failed;00:15:37;M;Space career;40
+4;Gherman Titov;Soviet Union;06.08.1961;Vostok 2;Soviet Union;successful;01:01:18;M;Space career;25
+5;John Glenn;United States;20.02.1962;Friendship 7;United States;successful;00:04:55;M;Space career;40
+6;Scott Carpenter;United States;24.05.1962;Aurora 7;Soviet Union;successful;00:04:56;M;Space career;35
+7;Andriyan Nikolayev;Soviet Union;11.08.1962;Vostok 3;Soviet Union;successful;04:04:22;M;Space career;32
+8;Pavel Popovich;Soviet Union;12.08.1962;Vostok 4;Soviet Union;successful;04:04:22;M;Space career;32
+9;Walter Schirra;United States;03.10.1962;Sigma 7;United States;successful;00:09:13;M;Space career;42
+10;Gordon Cooper;United States;15.05.1963;Faith 7;United States;successful;01:10:20;M;Space career;37
+11;Valery Bykovsky;Soviet Union;14.06.1963;Vostok 5;Soviet Union;successful;05:03:11;M;Space career;32
+12;Valentina Tereshkova;Soviet Union;16.06.1963;Vostok 6;Soviet Union;successful;02:22:50;F;Space career;26
+13;Joseph Walker;United States;19.07.1963;X-15 Flight 90;United States;failed;00:01:59;M;Space career;32
+14;Konstantin Feoktistov;Soviet Union;12.10.1964;Voskhod 1;Soviet Union;successful;01:24:17;M;Space career;31
+15;Vladimir Komarov;Soviet Union;12.10.1964;Voskhod 1;Soviet Union;successful;01:22:50;M;Space career;35
+16;Boris Yegorov;Soviet Union;12.10.1964;Voskhod 1;Soviet Union;successful;01:22:50;M;Space career;32
+17;Pavel Belyayev;Soviet Union;18.03.1965;Voskhod 2;Soviet Union;successful;02:22:50;M;Space career;34
+18;Alexei Leonov;Soviet Union;18.03.1965;Voskhod 2;Soviet Union;successful;02:22:50;M;Space career;30
+19;John Young;United States;23.03.1965;Gemini 3;United States;successful;02:20:09;M;Space career;39
+20;James McDivitt;United States;03.06.1965;Gemini 4;United States;successful;02:20:09;M;Space career;37
+21;Edward White;United States;03.06.1965;Gemini 4;United States;successful;02:20:09;M;Space career;36
+22;Pete Conrad;United States;21.08.1965;Gemini 5;United States;successful;00:01:12;M;Space career;35
+23;Frank Borman;United States;04.12.1965;Gemini 7;United States;successful;05:22:55;M;Space career;39
+24;James Lovell;United States;04.12.1965;Gemini 7;United States;successful;09:02:54;M;Space career;38
+25;Thomas Stafford;United States;15.12.1965;Gemini 6A;United States;failed;09:02:54;M;Space career;37
+26;Neil Armstrong;United States;16.03.1966;Gemini 8;United States;failed;02:03:50;M;Space career;39
+27;David Scott;United States;16.03.1966;Gemini 8;United States;failed;09:22:55;M;Space career;36
+28;Eugene Cernan;United States;03.06.1966;Gemini 9A;United States;failed;07:15:12;M;Space career;37
+29;Michael Collins;United States;18.07.1966;Gemini 10;United States;successful;09:22:55;M;Space career;38
+30;Richard Gordon;United States;12.09.1966;Gemini 11;United States;successful;09:02:54;M;Space career;37
+31;Edwin Aldrin;United States;11.11.1966;Gemini 12;United States;successful;09:22:55;M;Space career;39
+32;Walter Cunningham;United States;11.10.1968;Apollo 7;United States;successful;00:01:12;M;Space career;38
+33;Donn Eisele;United States;11.10.1968;Apollo 7;United States;successful;03:22:35;M;Space career;37
+34;Georgy Beregovoy;Soviet Union;26.10.1968;Soyuz 3;United States;failed;04:22:22;M;Space career;47
+35;William Anders;United States;21.12.1968;Apollo 8;United States;successful;09:22:55;M;Space career;38
+36;Vladimir Shatalov;Soviet Union;14.01.1969;Soyuz 4;Soviet Union;successful;02:22:35;M;Space career;34
+37;Yevgeny Khrunov;Soviet Union;15.01.1969;Soyuz 5;Soviet Union;successful;02:22:35;M;Space career;35
+38;Boris Volynov;Soviet Union;15.01.1969;Soyuz 5;Soviet Union;successful;05:22:55;M;Space career;39
+39;Aleksei Yeliseyev;Soviet Union;15.01.1969;Soyuz 5;Soviet Union;successful;05:22:55;M;Space career;39
+40;Russell Schweickart;United States;03.03.1969;Apollo 9;United States;successful;09:22:55;M;Space career;33
+41;Valeri Kubasov;Soviet Union;11.10.1969;Soyuz 6;Soviet Union;failed;05:22:55;M;Space career;37
+42;Georgy Shonin;Soviet Union;11.10.1969;Soyuz 6;Soviet Union;failed;05:22:55;M;Space career;44
+43;Anatoly Filipchenko;Soviet Union;12.10.1969;Soyuz 7;Soviet Union;successful;01:22:41;M;Space career;44
+44;Viktor Gorbatko;Soviet Union;12.10.1969;Soyuz 7;Soviet Union;successful;01:22:41;M;Space career;37
+45;Vladislav Volkov;Soviet Union;12.10.1969;Soyuz 7;Soviet Union;successful;02:22:41;M;Space career;35
+46;Alan Bean;United States;14.11.1969;Apollo 12;United States;successful;07:15:12;M;Space career;38
+47;Fred Haise;United States;11.04.1970;Apollo 13;United States;failed;00:01:12;M;Space career;38
+48;Jack Swigert;United States;11.04.1970;Apollo 13;United States;failed;00:01:12;M;Space career;38
+49;Vitaly Sevastyanov;Soviet Union;01.06.1970;Soyuz 9;Soviet Union;successful;17:16:59;M;Space career;35
+50;Edgar Mitchell;United States;31.01.1971;Apollo 14;United States;successful;09:22:55;M;Space career;40
+51;Stuart Roosa;United States;31.01.1971;Apollo 14;United States;successful;09:22:55;M;Space career;36
+52;Nikolay Rukavishnikov;Soviet Union;22.04.1971;Soyuz 10;Soviet Union;failed;17:16:59;M;Space career;32
+53;Georgy Dobrovolsky;Soviet Union;06.06.1971;Soyuz 11;Soviet Union;failed;17:16:59;M;Space career;43
+54;Viktor Patsayev;Soviet Union;06.06.1971;Soyuz 11;Soviet Union;failed;17:16:59;M;Space career;38
+55;James Irwin;United States;26.07.1971;Apollo 15;United States;successful;74:59:00;M;Space career;38
+56;Alfred Worden;United States;26.07.1971;Apollo 15;United States;successful;74:59:00;M;Space career;39
+57;Charles Duke;United States;16.04.1972;Apollo 16;United States;successful;74:59:00;M;Space career;36
+58;Ken Mattingly;United States;16.04.1972;Apollo 16;United States;successful;74:59:00;M;Space career;36
+59;Ronald Evans;United States;07.12.1972;Apollo 17;United States;successful;74:59:00;M;Space career;42
+60;Harrison Schmitt;United States;07.12.1972;Apollo 17;United States;successful;74:59:00;M;Space career;37
+61;Joseph Kerwin;United States;25.05.1973;Skylab 2;United States;successful;59:22:59;M;Space career;38
+62;Paul Weitz;United States;25.05.1973;Skylab 2;United States;successful;59:22:59;M;Space career;39
+63;Owen Garriott;United States;28.07.1973;Skylab 3;United States;successful;59:22:59;M;Space career;42
+64;Jack Lousma;United States;28.07.1973;Skylab 3;United States;successful;59:22:59;M;Space career;39
+65;Vasily Lazarev;Soviet Union;27.09.1973;Soyuz 12;Soviet Union;successful;23:18:20;M;Space career;47
+66;Oleg Makarov;Soviet Union;27.09.1973;Soyuz 12;Soviet Union;successful;23:18:20;M;Space career;39
+67;Gerald Carr;United States;16.11.1973;Skylab 4;United States;successful;84:00:00;M;Space career;38
+68;Edward Gibson;United States;16.11.1973;Skylab 4;United States;successful;84:00:00;M;Space career;46
+69;William Pogue;United States;16.11.1973;Skylab 4;United States;successful;84:00:00;M;Space career;43
+70;Pyotr Klimuk;Soviet Union;18.12.1973;Soyuz 13;Soviet Union;successful;12:18:45;M;Space career;33
+71;Valentin Lebedev;Soviet Union;18.12.1973;Soyuz 13;Soviet Union;successful;12:18:45;M;Space career;39
+72;Yury Artyukhin;Soviet Union;03.07.1974;Soyuz 14;Soviet Union;successful;79:20:38;M;Space career;33
+73;Lev Dyomin;Soviet Union;26.08.1974;Soyuz 15;Soviet Union;failed;79:20:38;M;Space career;39
+74;Gennadi Sarafanov;Soviet Union;26.08.1974;Soyuz 15;Soviet Union;successful;79:20:38;M;Space career;38
+75;Georgy Grechko;Soviet Union;10.01.1975;Soyuz 17;Soviet Union;successful;89:17:10;M;Space career;42
+76;Aleksei Gubarev;Soviet Union;10.01.1975;Soyuz 17;Soviet Union;successful;89:17:10;M;Space career;41
+77;Vance Brand;United States;15.07.1975;ASTP;United States and Soviet Union;successful;37:20:13;M;Space career;38
+78;Donald Slayton;United States;15.07.1975;ASTP;United States and Soviet Union;successful;07:22:49;M;Space career;51
+79;Vitaly Zholobov;Soviet Union;06.07.1976;Soyuz 21;Soviet Union;successful;11:19:59;M;Space career;37
+80;Vladimir Aksyonov;Soviet Union;15.09.1976;Soyuz 22;Soviet Union;successful;11:19:59;M;Space career;40
+81;Valery Rozhdestvensky;Soviet Union;14.10.1976;Soyuz 23;Soviet Union;failed;11:19:59;M;Space career;39
+82;Vyacheslav Zudov;Soviet Union;14.10.1976;Soyuz 23;Soviet Union;failed;23:19:59;M;Space career;39
+83;Yury Glazkov;Soviet Union;07.02.1977;Soyuz 24;Soviet Union;successful;17:17:25;M;Space career;37
+84;Vladimir Kovalyonok;Soviet Union;09.10.1977;Soyuz 25;Soviet Union;failed;219:19:35;M;Space career;36
+85;Valery Ryumin;Soviet Union;09.10.1977;Soyuz 25;Soviet Union;failed;219:19:35;M;Space career;36
+86;Yury Romanenko;Soviet Union;10.12.1977;Soyuz 26;Soviet Union;successful;343:18:14;M;Space career;36
+87;Vladimir Dzhanibekov;Soviet Union;10.01.1978;Soyuz 27;Soviet Union;successful;343:18:14;M;Space career;34
+88;Vladimir Remek;Czechoslovakia;02.03.1978;Soyuz 28;Soviet Union;successful;07:22:59;M;Space career;33
+89;Aleksandr Ivanchenkov;Soviet Union;15.06.1978;Soyuz 29;Soviet Union;successful;07:22:59;M;Space career;37
+90;Miros Вaw Hermaszewski;Poland;27.06.1978;Soyuz 30;Soviet Union;successful;07:22:59;M;Space career;32
+91;Sigmund J√§hn;East Germany;26.08.1978;Soyuz 31;Soviet Union;successful;07:22:59;M;Space career;37
+92;Vladimir Lyakhov;Soviet Union;25.02.1979;Soyuz 32;Soviet Union;successful;326:22:49;M;Space career;39
+93;Georgi Ivanov;Bulgaria;10.04.1979;Soyuz 33;Soviet Union;successful;362:22:49;M;Space career;39
+94;Leonid Popov;Soviet Union;09.04.1980;Soyuz 35;Soviet Union;successful;362:22:49;M;Space career;39
+95;Bertalan Farkas;Hungary;26.05.1980;Soyuz 36;Soviet Union;successful;07:22:59;M;Space career;39
+96;Yury Malyshev;Soviet Union;05.06.1980;Soyuz T-2;Soviet Union;successful;292:19:59;M;Space career;37
+97;Pham Tuan;Vietnam;23.07.1980;Soyuz 37;Soviet Union;successful;07:22:59;M;Space career;39
+98;Arnaldo Tamayo Mendez;Cuba;18.09.1980;Soyuz 38;Soviet Union;successful;07:22:59;M;Space career;39
+99;Leonid Kizim;Soviet Union;27.11.1980;Soyuz T-3;Soviet Union;successful;374:19:32;M;Space career;39
+100;Gennadi Strekalov;Soviet Union;27.11.1980;Soyuz T-3;Soviet Union;successful;374:19:32;M;Space career;37
+101;Viktor Savinykh;Soviet Union;12.03.1981;Soyuz T-4;Soviet Union;successful;374:19:32;M;Space career;39
+102;Zhugderdamidiin Gurragcha;Mongolia;22.03.1981;Soyuz 39;Soviet Union;successful;07:22:59;M;Space career;38
+103;Robert Crippen;United States;12.04.1981;STS-1;United States;successful;28:17:56;M;Space career;42
+104;Dumitru Prunariu;Romania;14.05.1981;Soyuz 40;Soviet Union;successful;07:22:59;M;Space career;37
+105;Joseph Engle;United States;12.11.1981;STS-2;United States;successful;28:17:56;M;Space career;42
+106;Richard Truly;United States;12.11.1981;STS-2;United States;successful;21:12:47;M;Space career;42
+107;Charles Fullerton;United States;22.03.1982;STS-3;United States;successful;28:17:56;M;Space career;42
+108;Anatoly Berezovoy;Soviet Union;13.05.1982;Soyuz T-5;Soviet Union;successful;211:19:59;M;Space career;37
+109;Jean-Loup Chretien;France;24.06.1982;Soyuz T-6;Soviet Union;successful;43:10:48;M;Space career;37
+110;Henry Hartsfield;United States;27.06.1982;STS-4;United States;successful;43:10:48;M;Space career;42
+111;Svetlana Savitskaya;Soviet Union;19.08.1982;Soyuz T-7;Soviet Union;successful;08:21:24;M;Space career;30
+112;Aleksandr Serebrov;Soviet Union;19.08.1982;Soyuz T-7;Soviet Union;successful;381:23:51;M;Space career;39
+113;Joseph Allen;United States;11.11.1982;STS-5;United States;successful;07:23:18;M;Space career;42
+114;William Lenoir;United States;11.11.1982;STS-5;United States;successful;07:23:18;M;Space career;42
+115;Robert Overmyer;United States;11.11.1982;STS-5;United States;successful;07:23:18;M;Space career;42
+116;Karol Bobko;United States;04.04.1983;STS-6;United States;successful;38:21:24;M;Space career;42
+117;Story Musgrave;United States;04.04.1983;STS-6;United States;successful;54:23:33;M;Space career;42
+118;Donald Peterson;United States;04.04.1983;STS-6;United States;successful;07:23:18;M;Space career;42
+119;Vladimir Titov;Soviet Union;20.04.1983;Soyuz T-8;Soviet Union;successful;74:59:00;M;Space career;42
+120;John Fabian;United States;18.06.1983;STS-7;United States;successful;07:23:18;M;Space career;42
+121;Frederick Hauck;United States;18.06.1983;STS-7;United States;successful;32:17:56;M;Space career;42
+122;Sally Ride;United States;18.06.1983;STS-7;United States;successful;14:07:43;M;Space career;32
+123;Norman Thagard;United States;18.06.1983;STS-7;United States;successful;141:00:00;M;Space career;43
+124;Aleksandr Pavlovich Aleksandrov;Soviet Union;27.06.1983;Soyuz T-9;Soviet Union;successful;07:23:18;M;Space career;43
+125;Guion Bluford;United States;30.08.1983;STS-8;United States;successful;28:17:56;M;Space career;43
+126;Daniel Brandenstein;United States;30.08.1983;STS-8;United States;successful;158:21:24;M;Space career;42
+127;Dale Gardner;United States;30.08.1983;STS-8;United States;successful;07:23:18;M;Space career;42
+128;William Thornton;United States;30.08.1983;STS-8;United States;successful;07:23:18;M;Space career;43
+129;Byron Lichtenberg;United States;28.11.1983;STS-9;United States;successful;07:23:18;M;Space career;43
+130;Robert Parker;United States;28.11.1983;STS-9;United States;successful;07:23:18;M;Space career;43
+131;Brewster Shaw;United States;28.11.1983;STS-9;United States;successful;07:23:18;M;Space career;43
+132;Ulf Merbold;West Germany;28.11.1983;STS-9;United States;successful;21:12:47;M;Space career;39
+133;Robert Gibson;United States;03.02.1984;STS-41-B;United States;successful;07:23:18;M;Space career;42
+134;Bruce McCandless;United States;03.02.1984;STS-41-B;United States;successful;13:14:42;M;Space career;42
+135;Ronald McNair;United States;03.02.1984;STS-41-B;United States;successful;07:23:18;M;Space career;36
+136;Robert Stewart;United States;03.02.1984;STS-41-B;United States;successful;07:23:18;M;Space career;42
+137;Oleg Atkov;Soviet Union;08.02.1984;Soyuz T-10;Soviet Union;failed;07:23:18;M;Space career;40
+138;Vladimir Solovyov;Soviet Union;08.02.1984;Soyuz T-10;Soviet Union;failed;357:22:49;M;Space career;40
+139;Rakesh Sharma;India;03.04.1984;Soyuz T-11;Soviet Union;successful;07:23:18;M;Space career;38
+140;Terry Hart;United States;06.04.1984;STS-41-C;United States;failed;07:23:18;M;Space career;42
+141;George Nelson;United States;06.04.1984;STS-41-C;United States;failed;07:23:18;M;Space career;42
+142;Francis Scobee;United States;06.04.1984;STS-41-C;United States;failed;07:23:18;M;Space career;42
+143;James van Hoften;United States;06.04.1984;STS-41-C;United States;failed;07:23:18;M;Space career;42
+144;Igor Volk;Soviet Union;17.07.1984;Soyuz T-12;Soviet Union;successful;07:23:18;M;Space career;42
+145;Michael Coats;United States;30.08.1984;STS-41-D;United States;successful;11:19:59;M;Space career;42
+146;Steven Hawley;United States;30.08.1984;STS-41-D;United States;successful;38:21:24;M;Space career;42
+147;Richard Mullane;United States;30.08.1984;STS-41-D;United States;successful;07:23:18;M;Space career;42
+148;Judith Resnik;United States;30.08.1984;STS-41-D;United States;successful;06:05:48;M;Space career;36
+149;Charles Walker;United States;30.08.1984;STS-41-D;United States;successful;07:23:18;M;Space career;42
+150;Marc Garneau;Canada;05.10.1984;STS-41-G;United States;successful;07:23:18;M;Space career;41
+151;David Leestma;United States;05.10.1984;STS-41-G;United States;successful;38:21:24;M;Space career;42
+152;Jon McBride;United States;05.10.1984;STS-41-G;United States;successful;38:21:24;M;Space career;42
+153;Paul Scully-Power;United States;05.10.1984;STS-41-G;United States;successful;07:23:18;M;Space career;42
+154;Kathryn Sullivan;United States;05.10.1984;STS-41-G;United States;successful;38:21:24;M;Space career;32
+155;Anna Fisher;United States;08.11.1984;STS-51-A;United States;successful;07:23:18;M;Space career;31
+156;David Walker;United States;08.11.1984;STS-51-A;United States;successful;07:23:18;M;Space career;42
+157;James Buchli;United States;24.01.1985;STS-51-C;United States;failed;  20:10:25;M;Space career;42
+158;Ellison Onizuka;United States;24.01.1985;STS-51-C;United States;failed;03:01:33;M;Space career;42
+159;Gary Payton;United States;24.01.1985;STS-51-C;United States;failed;03:01:33;M;Space career;39
+160;Loren Shriver;United States;24.01.1985;STS-51-C;United States;failed;16:02:04;M;Space career;42
+161;Edwin Garn;United States;12.04.1985;STS-51-D;United States;successful;06:23:55;M;Space career;42
+162;Stanley Griggs;United States;12.04.1985;STS-51-D;United States;successful;06:23:55;M;Space career;53
+163;Jeffrey Hoffman;United States;12.04.1985;STS-51-D;United States;successful;59:22:59;M;Space career;55
+164;Margaret Seddon;United States;12.04.1985;STS-51-D;United States;successful;07:23:18;M;Space career;39
+165;Donald Williams;United States;12.04.1985;STS-51-D;United States;successful;07:23:18;M;Space career;42
+166;Frederick Gregory;United States;29.04.1985;STS-51-B;United States;successful;18:23:04;M;Space career;42
+167;Don Lind;United States;29.04.1985;STS-51-B;United States;successful;07:00:08;M;Space career;43
+168;Lodewijk van den Berg;United States;29.04.1985;STS-51-B;United States;successful;07:00:08;M;Space career;43
+169;Taylor Wang;United States;29.04.1985;STS-51-B;United States;successful;07:00:08;M;Space career;45
+170;Sultan Al-Saud;Saudi Arabia;17.06.1985;STS-51-G;United States;successful;07:23:18;M;Space career;28
+171;Patrick Baudry;France;17.06.1985;STS-51-G;United States;successful;07:23:18;M;Space career;38
+172;John Creighton;United States;17.06.1985;STS-51-G;United States;successful;07:23:18;M;Space career;47
+173;Shannon Lucid;United States;17.06.1985;STS-51-G;United States;successful;223:02:50;F;Space career;35
+174;Steven Nagel;United States;17.06.1985;STS-51-G;United States;successful; 30:01:34;M;Space career;42
+175;Loren Acton;United States;29.07.1985;STS-51-F;United States;successful;07:23:45;M;Space career;47
+176;John Bartoe;United States;29.07.1985;STS-51-F;United States;successful;07:23:45;M;Space career;45
+177;Roy Bridges;United States;29.07.1985;STS-51-F;United States;successful;07:23:45;M;Space career;43
+178;Anthony England;United States;29.07.1985;STS-51-F;United States;successful;07:23:45;M;Space career;45
+179;Karl Henize;United States;29.07.1985;STS-51-F;United States;successful;07:23:45;M;Space career;55
+180;Richard Covey;United States;27.08.1985;STS-51-I;United States;failed; 26:21:09;M;Space career;47
+181;William Fisher;United States;27.08.1985;STS-51-I;United States;failed;07:02:17;M;Space career;50
+182;John Lounge;United States;27.08.1985;STS-51-I;United States;failed;07:23:18;M;Space career;57
+183;Vladimir Vasyutin;Soviet Union;17.09.1985;Soyuz T-14;Soviet Union;successful;184:22:49;M;Space career;35
+184;Aleksandr Volkov;Soviet Union;17.09.1985;Soyuz T-14;Soviet Union;successful;696:11:45;M;Space career;37
+185;Ronald Grabe;United States;03.10.1985;STS-51-J;United States;successful;61:21:24;M;Space career;42
+186;David Hilmers;United States;03.10.1985;STS-51-J;United States;successful;07:23:18;M;Space career;42
+187;William Pailes;United States;03.10.1985;STS-51-J;United States;successful;07:23:18;M;Space career;42
+188;Bonnie Dunbar;United States;30.10.1985;STS-61-A;United States;successful;50:08:24;F;Space career;34
+189;Reinhard Furrer;West Germany;30.10.1985;STS-61-A;United States;successful;07:23:18;M;Space career;42
+190;Ernst Messerschmid;West Germany;30.10.1985;STS-61-A;United States;successful;07:23:18;M;Space career;44
+191;Wubbo Ockels;Netherlands;30.10.1985;STS-61-A;United States;successful;07:23:18;M;Space career;36
+192;Mary Cleave;United States;27.11.1985;STS-61-B;United States;successful;07:23:18;F;Space career;35
+193;Rodolfo Neri Vela;Mexico;27.11.1985;STS-61-B;United States;successful;07:23:18;M;Space career;39
+194;Bryan O'Connor;United States;27.11.1985;STS-61-B;United States;successful;43:10:48;M;Space career;40
+195;Jerry Ross;United States;27.11.1985;STS-61-B;United States;successful;53:22:59;M;Space career;42
+196;Sherwood Spring;United States;27.11.1985;STS-61-B;United States;successful;08:23:18;M;Space career;42
+197;Charles Bolden;United States;12.01.1986;STS-61-C;United States;successful;28:17:56;M;Space career;42
+198;Robert Cenker;United States;12.01.1986;STS-61-C;United States;successful;38:21:24;M;Space career;38
+199;Franklin Chang D√≠az;United States;12.01.1986;STS-61-C;United States;successful;60:22:59;M;Space career;34
+200;"Clarence ""Bill"" Nelson";United States;12.01.1986;STS-61-C;United States;successful;07:23:18;M;Space career;52
+201;Michael J. Smith;United States;28.01.1986;STS-51-L;United States;failed;07:23:18;M;Space career;40
+202;Gregory Jarvis;United States;28.01.1986;STS-51-L;United States;failed;07:23:18;M;Space career;41
+203;Christa McAuliffe;United States;28.01.1986;STS-51-L;United States;failed;07:23:18;F;Space career;37
+204;Aleksandr Laveykin;Soviet Union;05.02.1987;Soyuz TM-2;Soviet Union;successful;07:23:18;M;Space career;39
+205;Muhammed Faris;Syria;22.07.1987;Soyuz TM-3;Soviet Union;successful;07:23:18;M;Space career;38
+206;Aleksandr Viktorenko;Soviet Union;22.07.1987;Soyuz TM-3;Soviet Union;successful;489:17:10;M;Space career;38
+207;Anatoly Levchenko;Soviet Union;21.12.1987;Soyuz TM-4;Soviet Union;successful;184:22:49;M;Space career;43
+208;Musa Manarov;Soviet Union;21.12.1987;Soyuz TM-4;Soviet Union;successful;541:10:08;M;Space career;35
+209;Aleksandr Panayotov Aleksandrov;Bulgaria;07.06.1988;Soyuz TM-5;Soviet Union;successful;07:23:18;M;Space career;46
+210;Anatoly Solovyev;Soviet Union;07.06.1988;Soyuz TM-5;Soviet Union;successful;687:22:49;M;Space career;43
+211;Abdul Mohmand;Afghanistan;29.08.1988;Soyuz TM-6;Soviet Union;successful;07:23:18;M;Space career;34
+212;Valeri Polyakov;Soviet Union;29.08.1988;Soyuz TM-6;Soviet Union;successful;678:22:49;M;Space career;40
+213;Sergei Krikalev;Soviet Union;26.11.1988;Soyuz TM-7;Soviet Union;successful;803:09:54;M;Space career;33
+214;Guy Gardner;United States;02.12.1988;STS-27;United States;successful;07:23:18;M;Space career;42
+215;William Shepherd;United States;02.12.1988;STS-27;United States;successful;159:22:59;M;Space career;44
+216;James Bagian;United States;13.03.1989;STS-29;United States;successful;158:21:24;M;Space career;45
+217;John Blaha;United States;13.03.1989;STS-29;United States;successful;181:22:59;M;Space career;45
+218;Robert Springer;United States;13.03.1989;STS-29;United States;successful;158:21:24;M;Space career;42
+219;Mark Lee;United States;04.05.1989;STS-30;United States;successful;158:21:24;M;Space career;42
+220;James Adamson;United States;08.08.1989;STS-28;United States;successful;07:23:18;M;Space career;42
+221;Mark Brown;United States;08.08.1989;STS-28;United States;successful;07:23:18;M;Space career;42
+222;Richard Richards;United States;08.08.1989;STS-28;United States;successful;07:23:18;M;Space career;42
+223;Ellen Baker;United States;18.10.1989;STS-34;United States;successful;07:23:18;F;Space career;36
+224;Michael McCulley;United States;18.10.1989;STS-34;United States;successful;07:23:18;M;Space career;35
+225;Manly Carter;United States;23.11.1989;STS-33;United States;successful;07:23:18;M;Space career;45
+226;Kathryn Thornton;United States;23.11.1989;STS-33;United States;successful;97:19:59;F;Space career;32
+227;Marsha Ivins;United States;09.01.1990;STS-32;United States;successful;58:19:59;F;Space career;44
+228;George Low;United States;09.01.1990;STS-32;United States;successful;07:23:18;M;Space career;53
+229;James Wetherbee;United States;09.01.1990;STS-32;United States;successful;158:21:24;M;Space career;42
+230;Aleksandr Balandin;Soviet Union;11.02.1990;Soyuz TM-9;Soviet Union;successful;07:23:18;M;Space career;39
+231;John Casper;United States;28.02.1990;STS-36;United States;successful;07:23:18;M;Space career;41
+232;Pierre Thuot;United States;28.02.1990;STS-36;United States;successful;07:23:18;M;Space career;38
+233;Gennadi Manakov;Soviet Union;01.08.1990;Soyuz TM-10;Soviet Union;successful;184:22:49;M;Space career;43
+234;Thomas Akers;United States;06.10.1990;STS-41;United States;successful;189:22:59;M;Space career;42
+235;Robert Cabana;United States;06.10.1990;STS-41;United States;successful;03:00:00;M;Space career;42
+236;Bruce Melnick;United States;06.10.1990;STS-41;United States;successful;07:23:18;M;Space career;42
+237;Frank Culbertson;United States;15.11.1990;STS-38;United States;successful;188:04:01;M;Space career;42
+238;Charles Gemar;United States;15.11.1990;STS-38;United States;successful;10:20:34;M;Space career;42
+239;Carl Meade;United States;15.11.1990;STS-38;United States;successful;07:23:18;M;Space career;42
+240;Samuel Durrance;United States;02.12.1990;STS-35;United States;successful;16:21:24;M;Space career;42
+241;Ronald Parise;United States;02.12.1990;STS-35;United States;successful;07:23:18;M;Space career;42
+242;Viktor Afanasyev;Soviet Union;02.12.1990;Soyuz TM-11;Soviet Union;successful;551:20:34;M;Space career;44
+243;Toyohiro Akiyama;Japan;02.12.1990;Soyuz TM-11;Soviet Union;successful;15:21:24;M;Space career;46
+244;Jerome Apt;United States;05.04.1991;STS-37;United States;successful;07:23:18;M;Space career;42
+245;Kenneth Cameron;United States;05.04.1991;STS-37;United States;successful;07:23:18;M;Space career;42
+246;Linda Godwin;United States;05.04.1991;STS-37;United States;successful;55:20:34;F;Space career;37
+247;Lloyd Hammond;United States;28.04.1991;STS-39;United States;successful;07:23:18;M;Space career;42
+248;Gregory Harbaugh;United States;28.04.1991;STS-39;United States;successful;14:00:02;M;Space career;42
+249;Richard Hieb;United States;28.04.1991;STS-39;United States;successful;07:23:18;M;Space career;42
+250;Donald McMonagle;United States;28.04.1991;STS-39;United States;successful;07:23:18;M;Space career;42
+251;Charles Veach;United States;28.04.1991;STS-39;United States;successful;07:23:18;M;Space career;42
+252;Anatoly Artsebarsky;Soviet Union;18.05.1991;Soyuz TM-12;Soviet Union;successful;144:22:49;M;Space career;45
+253;Helen Sharman;United Kingdom;18.05.1991;Soyuz TM-12;Soviet Union;successful;07:23:18;F;Space career;27
+254;Francis Gaffney;United States;05.06.1991;STS-40;United States;successful;07:23:18;M;Space career;43
+255;Sidney Gutierrez;United States;05.06.1991;STS-40;United States;successful;07:23:18;M;Space career;41
+256;Millie Hughes-Fulford;United States;05.06.1991;STS-40;United States;successful;07:23:18;F;Space career;45
+257;Tamara Jernigan;United States;05.06.1991;STS-40;United States;successful;50:08:24;F;Space career;39
+258;Michael Baker;United States;02.08.1991;STS-43;United States;successful;07:23:18;M;Space career;42
+259;Kenneth Reightler;United States;12.09.1991;STS-48;United States;successful;07:23:18;M;Space career;42
+260;Toktar Aubakirov;Soviet Union;02.10.1991;Soyuz TM-13;Russia;successful;07:23:18;M;Space career;42
+261;Franz Viehb√ґck;Austria;02.10.1991;Soyuz TM-13;Russia;successful;08:23:18;M;Space career;38
+262;Thomas Hennen;United States;24.11.1991;STS-44;United States;successful;07:23:18;M;Space career;43
+263;Terence Henricks;United States;24.11.1991;STS-44;United States;successful;07:23:18;M;Space career;42
+264;Mario Runco;United States;24.11.1991;STS-44;United States;successful;07:23:18;M;Space career;42
+265;James Voss;United States;24.11.1991;STS-44;United States;successful;229:19:59;M;Space career;45
+266;Roberta Bondar;Canada;22.01.1992;STS-42;United States;successful;07:23:18;F;Space career;42
+267;Stephen Oswald;United States;22.01.1992;STS-42;United States;successful;35:19:59;M;Space career;43
+268;William Readdy;United States;22.01.1992;STS-42;United States;successful;38:21:24;M;Space career;42
+269;Klaus-Dietrich Flade;Germany;17.03.1992;Soyuz TM-14;Russia;successful;07:23:18;M;Space career;49
+270;Aleksandr Kaleri;Russia;17.03.1992;Soyuz TM-14;Russia;successful;748:09:54;M;Space career;38
+271;Brian Duffy;United States;24.03.1992;STS-45;United States;successful;07:23:18;M;Space career;42
+272;Michael Foale;United States;24.03.1992;STS-45;United States;successful;382:22:59;M;Space career;44
+273;Dirk Frimout;Belgium;24.03.1992;STS-45;United States;successful;10:20:34;M;Space career;46
+274;Kevin Chilton;United States;07.05.1992;STS-49;United States;successful;07:23:18;M;Space career;42
+275;Kenneth Bowersox;United States;25.06.1992;STS-50;United States;successful;116:21:24;M;Space career;43
+276;Lawrence DeLucas;United States;25.06.1992;STS-50;United States;successful;07:23:18;M;Space career;42
+277;Eugene Trinh;United States;25.06.1992;STS-50;United States;successful;07:23:18;M;Space career;42
+278;Sergei Avdeyev;Russia;27.07.1992;Soyuz TM-15;Russia;successful;747:22:49;M;Space career;47
+279;Michel Tognini;France;27.07.1992;Soyuz TM-15;Russia;successful;18:21:24;M;Space career;43
+280;Andrew Allen;United States;31.07.1992;STS-46;United States;successful;07:23:18;M;Space career;42
+281;Franco Malerba;Italy;31.07.1992;STS-46;United States;successful;07:23:18;M;Space career;45
+282;Claude Nicollier;Switzerland;31.07.1992;STS-46;United States;successful;43:10:48;M;Space career;48
+283;Curtis Brown;United States;12.09.1992;STS-47;United States;successful;07:23:18;M;Space career;42
+284;Nancy Davis;United States;12.09.1992;STS-47;United States;successful;07:23:18;F;Space career;43
+285;Mae Jemison;United States;12.09.1992;STS-47;United States;successful;07:23:18;F;Space career;33
+286;Mamoru Mohri;Japan;12.09.1992;STS-47;United States;successful;21:22:59;M;Space career;47
+287;Steven MacLean;Canada;22.10.1992;STS-52;United States;successful;23:22:59;M;Space career;36
+288;Michael Clifford;United States;02.12.1992;STS-53;United States;successful;07:23:18;M;Space career;42
+289;Susan Helms;United States;13.01.1993;STS-54;United States;successful;29:19:59;F;Space career;42
+290;Aleksandr Poleshchuk;Russia;24.01.1993;Soyuz TM-16;Russia;successful;179:22:59;M;Space career;43
+291;Kenneth Cockrell;United States;08.04.1993;STS-56;United States;successful;178:22:59;M;Space career;42
+292;Ellen Ochoa;United States;08.04.1993;STS-56;United States;successful;97:19:59;F;Space career;42
+293;Bernard Harris;United States;26.04.1993;STS-55;United States;successful;07:23:18;M;Space career;37
+294;Charles Precourt;United States;26.04.1993;STS-55;United States;successful;07:23:18;M;Space career;42
+295;Hans Schlegel;Germany;26.04.1993;STS-55;United States;successful;22:22:59;M;Space career;44
+296;Ulrich Walter;Germany;26.04.1993;STS-55;United States;successful;16:21:24;M;Space career;46
+297;Nancy Currie;United States;21.06.1993;STS-57;United States;successful;188:04:01;F;Space career;46
+298;Janice Voss;United States;21.06.1993;STS-57;United States;successful;188:04:01;F;Space career;42
+299;Peter Wisoff;United States;21.06.1993;STS-57;United States;successful;188:04:01;M;Space career;42
+300;Jean-Pierre Haignere;France;01.07.1993;Soyuz TM-17;Russia;successful;227:22:59;M;Space career;43
+301;Vasily Tsibliyev;Russia;01.07.1993;Soyuz TM-17;Russia;successful;748:09:54;M;Space career;42
+302;Daniel Bursch;United States;12.09.1993;STS-51;United States;successful;188:04:01;M;Space career;42
+303;James Newman;United States;12.09.1993;STS-51;United States;successful;382:22:59;M;Space career;42
+304;Carl Walz;United States;12.09.1993;STS-51;United States;successful;188:04:01;M;Space career;42
+305;Martin Fettman;United States;18.10.1993;STS-58;United States;successful;188:04:01;M;Space career;42
+306;William McArthur;United States;18.10.1993;STS-58;United States;successful;213:22:59;M;Space career;42
+307;Richard Searfoss;United States;18.10.1993;STS-58;United States;successful;07:23:18;M;Space career;42
+308;David Wolf;United States;18.10.1993;STS-58;United States;successful;168:22:59;M;Space career;42
+309;Yury Usachov;Russia;08.01.1994;Soyuz TM-18;Russia;successful;747:22:49;M;Space career;43
+310;Ronald Sega;United States;03.02.1994;STS-60;United States;successful;07:23:18;M;Space career;42
+311;Thomas Jones;United States;09.04.1994;STS-59;United States;successful;188:04:01;M;Space career;42
+312;Yuri Malenchenko;Russia;01.07.1994;Soyuz TM-19;Russia;successful;827:09:54;M;Space career;43
+313;Talgat Musabayev;Russia;01.07.1994;Soyuz TM-19;Russia;successful;629:19:59;M;Space career;39
+314;Leroy Chiao;United States;08.07.1994;STS-65;United States;successful;229:19:59;M;Space career;43
+315;James Halsell;United States;08.07.1994;STS-65;United States;successful;167:22:59;M;Space career;42
+316;Chiaki Mukai;Japan;08.07.1994;STS-65;United States;successful;15:21:24;F;Space career;43
+317;Donald Thomas;United States;08.07.1994;STS-65;United States;successful;188:04:01;M;Space career;43
+318;Jerry Linenger;United States;09.09.1994;STS-64;United States;successful;132:22:59;M;Space career;43
+319;Stephen Smith;United States;30.09.1994;STS-68;United States;successful;158:21:24;M;Space career;42
+320;Terrence Wilcutt;United States;30.09.1994;STS-68;United States;successful;188:04:01;M;Space career;42
+321;Yelena Kondakova;Russia;03.10.1994;Soyuz TM-20;Russia;successful;178:22:59;F;Space career;35
+322;Jean-Fran√Іois Clervoy;France;03.11.1994;STS-66;United States;successful;66:22:59;M;Space career;39
+323;Scott Parazynski;United States;03.11.1994;STS-66;United States;successful;188:04:01;M;Space career;38
+324;Joseph Tanner;United States;03.11.1994;STS-66;United States;successful;188:04:01;M;Space career;42
+325;Eileen Collins;United States;03.02.1995;STS-63;United States;successful;38:21:24;F;Space career;41
+326;William Gregory;United States;02.03.1995;STS-67;United States;successful;38:21:24;M;Space career;43
+327;John Grunsfeld;United States;02.03.1995;STS-67;United States;successful;58:19:59;M;Space career;40
+328;Wendy Lawrence;United States;02.03.1995;STS-67;United States;successful;55:20:34;F;Space career;37
+329;Vladimir Dezhurov;Russia;14.03.1995;Soyuz TM-21;Russia;successful;748:09:54;M;Space career;43
+330;Nikolai Budarin;Russia;27.06.1995;STS-71;United States;successful;437:22:59;M;Space career;42
+331;Kevin Kregel;United States;13.07.1995;STS-70;United States;successful;188:04:01;M;Space career;42
+332;Mary Weber;United States;13.07.1995;STS-70;United States;successful;188:04:01;F;Space career;44
+333;Yuri Gidzenko;Russia;03.09.1995;Soyuz TM-22;Russia;successful;748:09:54;M;Space career;44
+334;Thomas Reiter;Germany;03.09.1995;Soyuz TM-22;Russia;successful;350:22:59;M;Space career;38
+335;Michael Gernhardt;United States;07.09.1995;STS-69;United States;successful;188:04:01;M;Space career;42
+336;Catherine Coleman;United States;20.10.1995;STS-73;United States;successful;188:04:01;F;Space career;39
+337;Frederick Leslie;United States;20.10.1995;STS-73;United States;successful;188:04:01;M;Space career;42
+338;Michael Lopez-Alegria;United States;20.10.1995;STS-73;United States;successful;672:22:59;M;Space career;39
+339;Kent Rominger;United States;20.10.1995;STS-73;United States;successful;150:22:59;M;Space career;42
+340;Albert Sacco;United States;20.10.1995;STS-73;United States;successful;188:04:01;M;Space career;42
+341;Chris Hadfield;Canada;12.11.1995;STS-74;United States;successful;166:22:59;M;Space career;45
+342;Daniel Barry;United States;11.01.1996;STS-72;United States;successful;188:04:01;M;Space career;42
+343;Brent Jett;United States;11.01.1996;STS-72;United States;successful;38:21:24;M;Space career;42
+344;Winston Scott;United States;11.01.1996;STS-72;United States;successful;24:07:43;M;Space career;42
+345;Koichi Wakata;Japan;11.01.1996;STS-72;United States;successful;387:09:54;M;Space career;34
+346;Yury Onufriyenko;Russia;21.02.1996;Soyuz TM-23;Russia;successful;603:17:10;M;Space career;42
+347;Maurizio Cheli;Italy;22.02.1996;STS-75;United States;successful;07:23:18;M;Space career;34
+348;Umberto Guidoni;Italy;22.02.1996;STS-75;United States;successful;07:23:18;M;Space career;40
+349;Scott Horowitz;United States;22.02.1996;STS-75;United States;successful;07:23:18;M;Space career;42
+350;Andrew Thomas;United States;19.05.1996;STS-77;United States;successful;188:04:01;M;Space career;42
+351;Charles Brady;United States;20.06.1996;STS-78;United States;successful;07:23:18;M;Space career;42
+352;Jean-Jacques Favier;France;20.06.1996;STS-78;United States;successful;16:14:58;M;Space career;42
+353;Richard Linnehan;United States;20.06.1996;STS-78;United States;successful;59:20:49;M;Space career;42
+354;Robert Thirsk;Canada;20.06.1996;STS-78;United States;successful;204:18:29;M;Space career;45
+355;Claudie Haigner;France;17.08.1996;Soyuz TM-24;Russia;successful;25:14:22;F;Space career;32
+356;Valery Korzun;Russia;17.08.1996;Soyuz TM-24;Russia;successful;381:60:24;M;Space career;39
+357;Reinhold Ewald;Germany;10.02.1997;Soyuz TM-25;Russia;successful;19:16:34;M;Space career;49
+358;Aleksandr Lazutkin;Russia;10.02.1997;Soyuz TM-25;Russia;successful;184:22:07;M;Space career;42
+359;Roger Crouch;United States;04.04.1997;STS-83;United States;successful;19:15:58;M;Space career;42
+360;Gregory Linteris;United States;04.04.1997;STS-83;United States;successful;19:15:58;M;Space career;42
+361;Susan Kilrain;United States;04.04.1997;STS-83;United States;successful;19:15:58;F;Space career;42
+362;Edward Lu;United States;15.05.1997;STS-84;United States;successful;205:23:18;M;Space career;38
+363;Carlos Noriega;United States;15.05.1997;STS-84;United States;successful;20:01:18;M;Space career;42
+364;Pavel Vinogradov;Russia;05.08.1997;Soyuz TM-26;Russia;successful;546:22:33;M;Space career;42
+365;Robert Curbeam;United States;07.08.1997;STS-85;United States;successful;37:14:34;M;Space career;42
+366;Stephen Robinson;United States;07.08.1997;STS-85;United States;successful;48:09:52;M;Space career;42
+367;Bjarni Tryggvason;Canada;07.08.1997;STS-85;United States;successful;11:20:28;M;Space career;36
+368;Michael Bloomfield;United States;26.09.1997;STS-86;United States;successful;32:11:02;M;Space career;42
+369;Kalpana Chawla;United States;19.11.1997;STS-87;United States;successful;31:14:54;F;Space career;40
+370;Takao Doi;Japan;19.11.1997;STS-87;United States;successful;31:19:35;M;Space career;46
+371;Leonid Kadeniuk;Ukraine;19.11.1997;STS-87;United States;successful;15:16:34;M;Space career;51
+372;Steven Lindsey;United States;19.11.1997;STS-87;United States;successful;62:22:33;M;Space career;42
+373;Michael Anderson;United States;23.01.1998;STS-89;United States;successful;24:18:08;M;Space career;42
+374;Joe Edwards;United States;23.01.1998;STS-89;United States;successful;08:19:48;M;Space career;42
+375;James Reilly;United States;23.01.1998;STS-89;United States;successful;35:10:34;M;Space career;42
+376;Salizhan Sharipov;Russia;23.01.1998;STS-89;United States;successful;201:14:50;M;Space career;36
+377;L√©opold Eyharts;France;29.01.1998;Soyuz TM-27;Russia;successful;68:21:31;M;Space career;43
+378;Scott Altman;United States;17.04.1998;STS-90;United States;successful;51:12:47;M;Space career;42
+379;Jay Buckey;United States;17.04.1998;STS-90;United States;successful;15:21:50;M;Space career;42
+380;Kathryn Hire;United States;17.04.1998;STS-90;United States;successful;29:15:59;F;Space career;42
+381;James Pawelczyk;United States;17.04.1998;STS-90;United States;successful;15:21:50;M;Space career;42
+382;Dafydd Williams;Canada;17.04.1998;STS-90;United States;successful;28:15:47;M;Space career;44
+383;Dominic Gorie;United States;02.06.1998;STS-91;United States;successful;49:00:06;M;Space career;42
+384;Janet Kavandi;United States;02.06.1998;STS-91;United States;successful;33:20:08;F;Space career;42
+385;Yuri Baturin;Russia;13.08.1998;Soyuz TM-28;Russia;successful;19:01:21;M;Space career;42
+386;Gennady Padalka;Russia;13.08.1998;Soyuz TM-28;Russia;successful;878:11:29;M;Space career;40
+387;Pedro Duque;Spain;29.10.1998;STS-95;United States;successful;18:18:46;M;Space career;37
+388;Frederick Sturckow;United States;04.12.1998;STS-88;United States;successful;51:10:06;M;Space career;42
+389;Ivan Bella;Slovakia;20.02.1999;Soyuz TM-29;Russia;successful;07:21:56;M;Space career;42
+390;Rick Husband;United States;27.05.1999;STS-96;United States;successful;25:17:33;M;Space career;45
+391;Julie Payette;Canada;27.05.1999;STS-96;United States;successful;25:11:57;F;Space career;34
+392;Valeri Tokarev;Russia;27.05.1999;STS-96;United States;successful;199:02:58;M;Space career;58
+393;Jeffrey Ashby;United States;23.07.1999;STS-93;United States;successful;27:16:19;M;Space career;42
+394;Scott Kelly;United States;20.12.1999;STS-103;United States;successful;520:10:00;M;Space career;39
+395;Gerhard Thiele;Germany;11.02.2000;STS-99;United States;successful;11:05:39;M;Space career;48
+396;Sergei Zalyotin;Russia;04.04.2000;Soyuz TM-30;Russia;successful;83:16:35;M;Space career;42
+397;Jeffrey Williams;United States;19.05.2000;STS-101;United States;successful;534:02:48;M;Space career;42
+398;Daniel Burbank;United States;08.09.2000;STS-106;United States;successful;188:00:00;M;Space career;42
+399;Richard Mastracchio;United States;08.09.2000;STS-106;United States;successful;227:13:38;M;Space career;42
+400;Boris Morukov;Russia;08.09.2000;STS-106;United States;successful;12:00:00;M;Space career;42
+401;Pamela Melroy;United States;11.10.2000;STS-92;United States;successful;38:20:04;F;Space career;42
+402;Mark Polansky;United States;07.02.2001;STS-98;United States;successful;41:02:20;M;Space career;42
+403;James Kelly;United States;08.03.2001;STS-102;United States;successful;26:17:21;M;Space career;42
+404;Paul Richards;United States;08.03.2001;STS-102;United States;successful;12:19:48;M;Space career;42
+405;Yury Lonchakov;Russia;19.04.2001;STS-100;United States;successful;203:17:22;M;Space career;43
+406;John Phillips;United States;19.04.2001;STS-100;United States;successful;203:17:22;M;Space career;42
+407;Dennis Tito;United States;28.04.2001;Soyuz TM-32;Russia;successful;07:22:04;M;tourist;60
+408;Charles Hobaugh;United States;12.07.2001;STS-104;United States;successful;36:07:47;M;Space career;42
+409;Patrick Forrester;United States;10.08.2001;STS-105;United States;successful;15:14:18;M;Space career;42
+410;Mikhail Tyurin;Russia;10.08.2001;STS-105;United States;successful;532:02:60;M;Space career;43
+411;Konstantin Kozeyev;Russia;21.10.2001;Soyuz TM-33;Russia;successful;09:08:20;M;Space career;42
+412;Mark Kelly;United States;05.12.2001;STS-108;United States;successful;54:02:04;M;Space career;42
+413;Daniel Tani;United States;05.12.2001;STS-108;United States;successful;131:18:04;M;Space career;41
+414;Duane Carey;United States;01.03.2002;STS-109;United States;successful;10:22:10;M;Space career;42
+415;Michael Massimino;United States;01.03.2002;STS-109;United States;successful;23:19:48;M;Space career;42
+416;Stephen Frick;United States;08.04.2002;STS-110;United States;successful;23:14:04;M;Space career;42
+417;Lee Morin;United States;08.04.2002;STS-110;United States;successful;10:19:42;M;Space career;42
+418;Rex Walheim;United States;08.04.2002;STS-110;United States;successful;36:02:15;M;Space career;42
+419;Mark Shuttleworth;South Africa;25.04.2002;Soyuz TM-34;Russia;successful;09:21:25;M;tourist;28
+420;Roberto Vittori;Italy;25.04.2002;Soyuz TM-34;Russia;successful;852:25:00;M;Space career;42
+421;Paul Lockhart;United States;05.06.2002;STS-111;United States;successful;27:15:23;M;Space career;42
+422;Philippe Perrin;France;05.06.2002;STS-111;United States;successful;13:02:10;M;Space career;46
+423;Sergei Treshchov;Russia;05.06.2002;STS-111;United States;successful;184:02:30;M;Space career;42
+424;Peggy Whitson;United States;05.06.2002;STS-111;United States;successful;675:03:49;F;Space career;46
+425;Sandra Magnus;United States;07.10.2002;STS-112;United States;failed;157:01:10;F;Space career;44
+426;Piers Sellers;United States;07.10.2002;STS-112;United States;failed;35:09:02;M;Space career;47
+427;Fyodor Yurchikhin;Russia;07.10.2002;STS-112;United States;failed;672:02:40;M;Space career;41
+428;Frank De Winne;Belgium;30.10.2002;Soyuz TMA-1;Russia;successful;198:01:10;M;Space career;43
+429;John Herrington;United States;24.11.2002;STS-113;United States;successful;13:18:47;M;Space career;52
+430;Donald Pettit;United States;24.11.2002;STS-113;United States;successful;370:00:00;M;Space career;47
+431;David Brown;United States;16.01.2003;STS-107;United States;successful;15:22:21;M;Space career;42
+432;Laurel Clark;United States;16.01.2003;STS-107;United States;successful;16:22:21;F;Space career;41
+433;William McCool;United States;16.01.2003;STS-107;United States;successful;15:02:10;M;Space career;45
+434;Ilan Ramon;Israel;16.01.2003;STS-107;United States;successful;15:02:10;M;Space career;48
+435;Yang Liwei;China;15.10.2003;Shenzhou 5;China;failed;21:22:45;M;Space career;38
+436;Edward Fincke;United States;19.04.2004;Soyuz TMA-4;Russia;successful;381:01:20;M;Space career;41
+437;Andre Kuipers;Netherlands;19.04.2004;Soyuz TMA-4;Russia;successful;203:15:50;M;Space career;43
+438;Michael Melvill;United States;21.06.2004;SpaceShipOne 15P;United States;successful;00:00:07;M;Space career;48
+439;Brian Binnie;United States;04.10.2004;SpaceShipOne 17P;United States;successful;00:00:05;M;Space career;44
+440;Yuri Shargin;Russia;14.10.2004;Soyuz TMA-5;Russia;successful;09:21:30;M;Space career;41
+441;Charles Camarda;United States;26.07.2005;STS-114;United States;successful;13:21:32;M;Space career;51
+442;Soichi Noguchi;Japan;26.07.2005;STS-114;United States;successful;177:00:00;M;Space career;40
+443;Gregory Olsen;United States;01.10.2005;Soyuz TMA-7;Russia;successful;09:04:20;M;tourist;60
+444;Fei Junlong;China;12.10.2005;Shenzhou 6;China;successful;191:02:58;M;Space career;42
+445;Nie Haisheng;China;12.10.2005;Shenzhou 6;China;successful;111:14:12;M;Space career;43
+446;Marcos Pontes;Brazil;30.03.2006;Soyuz TMA-8;Russia;successful;09:21:17;M;Space career;43
+447;Michael Fossum;United States;04.07.2006;STS-121;United States;successful;193:19:02;M;Space career;43
+448;Lisa Nowak;United States;04.07.2006;STS-121;United States;successful;12:18:36;M;Space career;43
+449;Stephanie Wilson;United States;04.07.2006;STS-121;United States;successful;42:23:46;F;Space career;37
+450;Christopher Ferguson;United States;09.09.2006;STS-115;United States;successful;40:10:03;M;Space career;44
+451;Heidemarie Stefanyshyn-Piper;United States;09.09.2006;STS-115;United States;successful;27:15:36;F;Space career;42
+452;Anissa Melanie;United States;18.09.2006;Soyuz TMA-9;Russia;successful;10:21:05;F;tourist;23
+453;Anousheh Ansari;United States;18.09.2006;Soyuz TMA-9;Russia;successful;10:21:05;F;tourist;40
+454;Christer Fuglesang;Sweden;10.12.2006;STS-116;United States;successful;26:17:38;M;Space career;51
+455;Joan Higginbotham;United States;10.12.2006;STS-116;United States;successful;12:20:45;F;Space career;42
+456;William Oefelein;United States;10.12.2006;STS-116;United States;successful;12:20:44;M;Space career;42
+457;Nicholas Patrick;United States;10.12.2006;STS-116;United States;successful;26:14:52;M;Space career;42
+458;Sunita Williams;United States;10.12.2006;STS-116;United States;successful;321:17:15;F;Space career;40
+459;Oleg Kotov;Russia;07.04.2007;Soyuz TMA-10;Russia;successful;526:05:02;M;Space career;41
+460;Charles Simonyi;United States;07.04.2007;Soyuz TMA-10;Russia;successful;26:14:27;M;tourist;60
+461;Clayton Anderson;United States;08.06.2007;STS-117;United States;successful;166:21:10;M;Space career;47
+462;Lee Archambault;United States;08.06.2007;STS-117;United States;successful;26:15:33;M;Space career;42
+463;John Olivas;United States;08.06.2007;STS-117;United States;successful;27:17:05;M;Space career;40
+464;Steven Swanson;United States;08.06.2007;STS-117;United States;successful;195:20:47;M;Space career;42
+465;Tracy Caldwell Dyson;United States;08.08.2007;STS-118;United States;successful;188:19:14;F;Space career;38
+466;Benjamin Drew;United States;08.08.2007;STS-118;United States;successful;25:12:59;M;Space career;42
+467;Barbara Morgan;United States;08.08.2007;STS-118;United States;successful;12:05:35;F;Space career;55
+468;Sheikh Muszaphar Shukor;Malaysia;10.10.2007;Soyuz TMA-11;Russia;successful;10:20:14;M;Space career;43
+469;Paolo Nespoli;Italy;23.10.2007;STS-120;United States;successful;313:00:00;M;Space career;49
+470;Douglas Wheelock;United States;23.10.2007;STS-120;United States;successful;178:09:34;M;Space career;48
+471;George Zamka;United States;23.10.2007;STS-120;United States;successful;15:02:23;M;Space career;42
+472;Stanley Love;United States;07.02.2008;STS-122;United States;successful;12:18:22;M;Space career;42
+473;Leland Melvin;United States;07.02.2008;STS-122;United States;successful;23:13:38;M;Space career;46
+474;Alan Poindexter;United States;07.02.2008;STS-122;United States;successful;27:21:09;M;Space career;49
+475;Robert Behnken;United States;11.03.2008;STS-123;United States;successful;93:11:42;M;Space career;39
+476;Michael Foreman;United States;11.03.2008;STS-123;United States;successful;26:13:27;M;Space career;42
+477;Gregory H. Johnson;United States;11.03.2008;STS-123;United States;successful;31:11:50;M;Space career;42
+478;Garrett Reisman;United States;11.03.2008;STS-123;United States;successful;107:03:15;M;Space career;43
+479;Oleg Kononenko;Russia;08.04.2008;Soyuz TMA-12;Russia;successful;736:18:51;M;Space career;40
+480;Sergey Volkov;Russia;08.04.2008;Soyuz TMA-12;Russia;successful;548:00:00;M;Space career;35
+481;Yi So-Yeon;South Korea;08.04.2008;Soyuz TMA-12;Russia;successful;10:21:00;F;Space career;29
+482;Gregory Chamitoff;United States;31.05.2008;STS-124;United States;successful;198:18:02;M;Space career;54
+483;Ronald Garan;United States;31.05.2008;STS-124;United States;successful;177:23:54;M;Space career;50
+484;Kenneth Ham;United States;31.05.2008;STS-124;United States;successful;25:12:41;M;Space career;46
+485;Akihiko Hoshide;Japan;31.05.2008;STS-124;United States;successful;340:11:41;M;Space career;45
+486;Karen Nyberg;United States;31.05.2008;STS-124;United States;successful;180:00:00;F;Space career;41
+487;Jing Haipeng;China;25.09.2008;Shenzhou 7;China;successful;47:18:21;M;Space career;42
+488;Liu Boming;China;25.09.2008;Shenzhou 7;China;successful;95:00:29;M;Space career;43
+489;Zhai Zhigang;China;25.09.2008;Shenzhou 7;China;successful;185:06:00;M;Space career;42
+490;Richard Garriott;United States;12.10.2008;Soyuz TMA-13;Russia;successful;11:20:35;M;Space career;47
+491;Eric Boe;United States;15.11.2008;STS-126;United States;successful;28:15:34;M;Space career;45
+492;Stephen Bowen;United States;15.11.2008;STS-126;United States;successful;226:08:43;M;Space career;45
+493;Robert Kimbrough;United States;15.11.2008;STS-126;United States;successful;388:17:28;M;Space career;45
+494;Joseph Acaba;United States;15.03.2009;STS-119;United States;successful;306:00:34;M;Space career;40
+495;Dominic Antonelli;United States;15.03.2009;STS-119;United States;successful;24:05:45;M;Space career;42
+496;Richard Arnold;United States;15.03.2009;STS-119;United States;successful;209:13:29;M;Space career;43
+497;Michael Barratt;United States;26.03.2009;Soyuz TMA-14;Russia;successful;211:11:46;M;Space career;44
+498;Andrew Feustel;United States;11.05.2009;STS-125;United States;successful;225:09:16;M;Space career;43
+499;Michael Good;United States;11.05.2009;STS-125;United States;successful;24:16:06;M;Space career;42
+500;Gregory C. Johnson;United States;11.05.2009;STS-125;United States;successful;12:21:38;M;Space career;42
+501;Megan McArthur;United States;11.05.2009;STS-125;United States;successful;12:21:38;F;Space career;40
+502;Roman Romanenko;Russia;27.05.2009;Soyuz TMA-15;Russia;successful;333:09:00;M;Space career;42
+503;Christopher Cassidy;United States;15.07.2009;STS-127;United States;successful;377:17:49;M;Space career;40
+504;Douglas Hurley;United States;15.07.2009;STS-127;United States;successful;92:10:38;M;Space career;44
+505;Timothy Kopra;United States;15.07.2009;STS-127;United States;successful;244:05:34;M;Space career;41
+506;Thomas Marshburn;United States;15.07.2009;STS-127;United States;successful;337:09:43;M;Space career;53
+507;Kevin Ford;United States;29.08.2009;STS-128;United States;successful;13:20:54;M;Space career;44
+508;Jose M. Hernandez;United States;29.08.2009;STS-128;United States;successful;13:20:55;M;Space career;49
+509;Nicole Stott;United States;29.08.2009;STS-128;United States;successful;103:05:49;F;Space career;45
+510;Guy Laliberte;Canada;30.09.2009;Soyuz TMA-16;Russia;successful;10:21:17;M;tourist;58
+511;Maksim Surayev;Russia;30.09.2009;Soyuz TMA-16;Russia;successful;334:12:56;M;Space career;39
+512;Randolph Bresnik;United States;12.11.2009;STS-129;United States;successful;149:12:12;M;Space career;48
+513;Robert Satcher;United States;12.11.2009;STS-129;United States;successful;10:19:16;M;Space career;42
+514;Barry Wilmore;United States;12.11.2009;STS-129;United States;successful;178:01:00;M;Space career;48
+515;Timothy Creamer;United States;20.12.2009;Soyuz TMA-17;Russia;successful;163:05:33;M;Space career;49
+516;Terry Virts;United States;08.02.2010;STS-130;United States;successful;213:10:48;M;Space career;48
+517;Mikhail Korniyenko;Russia;02.04.2010;Soyuz TMA-18;Russia;successful;516:12:34;M;Space career;45
+518;Aleksandr Skvortsov;Russia;02.04.2010;Soyuz TMA-18;Russia;successful;345:09:12;M;Space career;45
+519;James Dutton;United States;05.04.2010;STS-131;United States;successful;15:02:47;M;Space career;42
+520;Dorothy Metcalf-Lindenburger;United States;05.04.2010;STS-131;United States;successful;15:02:48;F;Space career;55
+521;Naoko Yamazaki;Japan;05.04.2010;STS-131;United States;successful;15:02:47;F;Space career;38
+522;Shannon Walker;United States;15.06.2010;Soyuz TMA-19;Russia;successful;220:00:00;F;Space career;44
+523;Oleg Skripochka;Russia;07.10.2010;Soyuz TMA-01M;Russia;successful;536:03:49;M;Space career;42
+524;Dmitri Kondratyev;Russia;15.12.2010;Soyuz TMA-20;Russia;successful;159:07:17;M;Space career;38
+525;Andrei Borisenko;Russia;04.04.2011;Soyuz TMA-21;Russia;successful;337:08:56;M;Space career;50
+526;Aleksandr Samokutyayev;Russia;04.04.2011;Soyuz TMA-21;Russia;successful;331:11:25;M;Space career;46
+527;Satoshi Furukawa;Japan;07.06.2011;Soyuz TMA-02M;Russia;successful;165:00:00;M;Space career;47
+528;Anatoli Ivanishin;Russia;14.11.2011;Soyuz TMA-22;Russia;successful;476:04:41;M;Space career;42
+529;Anton Shkaplerov;Russia;14.11.2011;Soyuz TMA-22;Russia;successful;709:08:04;M;Space career;41
+530;Sergei Revin;Russia;15.05.2012;Soyuz TMA-04M;Russia;successful;124:23:52;M;Space career;42
+531;Liu Wang;China;16.06.2012;Shenzhou 9;China;successful;12:15:25;M;Space career;46
+532;Liu Yang;China;16.06.2012;Shenzhou 9;China;successful;195:00:50;F;Space career;34
+533;Oleg Novitskiy;Russia;23.10.2012;Soyuz TMA-06M;Russia;successful;531:06:58;M;Space career;41
+534;Evgeny Tarelkin;Russia;23.10.2012;Soyuz TMA-06M;Russia;successful;143:16:15;M;Space career;40
+535;Alexander Misurkin;Russia;28.03.2013;Soyuz TMA-08M;Russia;successful;346:07:04;M;Space career;36
+536;Luca Parmitano;Italy;28.05.2013;Soyuz TMA-09M;Russia;successful;366:23:01;M;Space career;35
+537;Zhang Xiaoguang;China;11.06.2013;Shenzhou 10;China;successful;14:14:29;M;Space career;46
+538;Wang Yaping;China;11.06.2013;Shenzhou 10;China;successful;197:00:01;M;Space career;33
+539;Michael Hopkins;United States;25.09.2013;Soyuz TMA-10M;Russia;successful;333:12:54;M;Space career;43
+540;Sergey Ryazansky;Russia;25.09.2013;Soyuz TMA-10M;Russia;successful;304:22:21;M;Space career;41
+541;Oleg Artemyev;Russia;25.03.2014;Soyuz TMA-12M;Russia;successful;560:00:00;M;Space career;40
+542;Reid Wiseman;United States;28.05.2014;Soyuz TMA-13M;Russia;successful;165:08:00;M;Space career;39
+543;Alexander Gerst;Germany;28.05.2014;Soyuz TMA-13M;Russia;successful;362:01:50;M;Space career;39
+544;Yelena Serova;Russia;25.09.2014;Soyuz TMA-14M;Russia;successful;167:05:42;F;Space career;38
+545;Samantha Cristoforetti;Italy;23.11.2014;Soyuz TMA-15M;Russia;successful;370:05:45;F;Space career;37
+546;Kimiya Yui;Japan;22.07.2015;Soyuz TMA-17M;Russia;successful;141:16:09;M;Space career;45
+547;Kjell N. Lindgren;United States;22.07.2015;Soyuz TMA-17M;Russia;successful;312:05:11;M;Space career;44
+548;Andreas Mogensen;Denmark;02.09.2015;Soyuz TMA-18M;Russia;successful;09:20:14;M;Space career;38
+549;Aidyn Aimbetov;Kazakhstan;02.09.2015;Soyuz TMA-18M;Russia;successful;09:20:13;M;Space career;57
+550;Tim Peake;United Kingdom;15.12.2015;Soyuz TMA-19M;Russia;successful;185:22:11;M;Space career;43
+551;Aleksey Ovchinin;Russia;18.03.2016;Soyuz TMA-20M;Russia;successful;374:19:31;M;Space career;38
+552;Takuya Onishi;Japan;07.07.2016;Soyuz MS-01;Russia;successful;115:02:22;M;Space career;41
+553;Kathleen Rubins;United States;07.07.2016;Soyuz MS-01;Russia;successful;300:01:31;F;Space career;42
+554;Chen Dong;China;17.10.2016;Shenzhou 11;China;successful;214:15:54;M;Space career;38
+555;Sergey Nikolayevich Ryzhikov;Russia;19.10.2016;Soyuz MS-02;Russia;successful;358:02:25;M;Space career;47
+556;Thomas Pesquet;France;17.11.2016;Soyuz MS-03;Russia;successful;396:11:34;M;Space career;38
+557;Jack Fischer;United States;20.04.2017;Soyuz MS-04;Russia;successful;135:18:08;M;Space career;42
+558;Mark Vande Hei;United States;12.09.2017;Soyuz MS-06;Russia;successful;523:08:59;M;Space career;51
+559;Norishige Kanai;Japan;17.12.2017;Soyuz MS-07;Russia;successful;168:05:18;M;Space career;41
+560;Scott D. Tingle;United States;17.12.2017;Soyuz MS-07;Russia;successful;168:05:18;M;Space career;42
+561;Sergey Prokopyev;Russia;06.06.2018;Soyuz MS-09;Russia;successful;567:15:13;M;Space career;43
+562;Serena Au__n-Chancellor;United States;06.06.2018;Soyuz MS-09;Russia;successful;196:17:49;F;Space career;41
+563;David Saint-Jacques;Canada;03.12.2018;Soyuz MS-11;Russia;successful;203:15:16;M;Space career;49
+564;Anne McClain;United States;03.12.2018;Soyuz MS-11;Russia;successful;203:15:16;F;Space career;38
+565;Nick Hague;United States;14.03.2019;Soyuz MS-12;Russia;successful;202:15:44;M;Space career;43
+566;Christina Koch;United States;14.03.2019;Soyuz MS-12;Russia;successful;328:13:58;F;Space career;40
+567;Andrew R. Morgan;United States;20.07.2019;Soyuz MS-13;Russia;successful;271:12:48;M;Space career;43
+568;Jessica Meir;United States;25.09.2019;Soyuz MS-15;Russia;successful;204:15:19;M;Space career;42
+569;Hazza Al Mansouri;United Arab Emirates;25.09.2019;Soyuz MS-15;Russia;successful;07:21:01;M;Space career;35
+570;Ivan Vagner;Russia;09.04.2020;Soyuz MS-16;Russia;successful;195:18:49;M;Space career;41
+571;Sergey Kud-Sverchkov;Russia;14.10.2020;Soyuz MS-17;Russia;successful;184:23:10;M;Space career;40
+572;Victor Glover;United States;15.11.2020;SpaceX Crew-1;United States;successful;167:06:29;M;Space career;44
+573;Pyotr Dubrov;Russia;09.04.2021;Soyuz MS-18;Russia;successful;355:03:45;M;Space career;41
+574;Tang Hongbo;China;17.06.2021;Shenzhou 12;China;successful;92:04:11;M;Space career;50
+575;Jeff Bezos;United States;20.07.2021;Blue Origin NS-16;United States;successful;00:00:10;M;tourist;57
+576;Wally Funk;United States;20.07.2021;Blue Origin NS-16;United States;successful;00:00:10;M;tourist;82
+577;Oliver Daemen;Netherlands;20.07.2021;Blue Origin NS-16;United States;successful;00:00:10;M;tourist;18
+578;Mark Bezos;United States;20.07.2021;Blue Origin NS-16;United States;successful;00:00:10;M;tourist;50
+579;Jared Isaacman;United States;15.09.2021;Inspiration4;United States;successful;02:23:03;M;Space career;38
+580;Sian Proctor;United States;15.09.2021;Inspiration4;United States;successful;02:23:03;F;Space career;51
+581;Hayley Arceneaux;United States;15.09.2021;Inspiration4;United States;successful;02:23:03;F;Space career;29
+582;Christopher Sembroski;United States;15.09.2021;Inspiration4;United States;successful;02:23:00;M;Space career;42
+583;Klim Shipenko;Russia;05.10.2021;Soyuz MS-19;Russia;successful;11:16:13;M;Space career;38
+584;Yulia Peresild;Russia;05.10.2021;Soyuz MS-19;Russia;successful;11:16:13;F;Space career;37
+585;Audrey Powers;United States;13.10.2021;Blue Origin NS-18;United States;successful;84:00:00;F;Space career;47
+586;Chris Boshuizen;Australia;13.10.2021;Blue Origin NS-18;United States;successful;00:00:07;M;tourist;49
+587;Glen de Vries;United States;13.10.2021;Blue Origin NS-18;United States;successful;13:20:50;M;Space career;49
+588;William Shatner;Canada;13.10.2021;Blue Origin NS-18;United States;successful;00:00:10;M;tourist;90
+589;Ye Guangfu;China;15.10.2021;Shenzhou 13;China;successful;182:09:32;M;Space career;50
+590;Raja Chari;United States;11.11.2021;SpaceX Crew-3;United States;successful;176:02:39;M;Space career;44
+591;Kayla Barron;United States;11.11.2021;SpaceX Crew-3;United States;successful;176:02:39;F;Space career;34
+592;Matthias Maurer;Germany;11.11.2021;SpaceX Crew-3;United States;successful;176:02:39;M;Space career;51
+593;Yusaku Maezawa;Japan;08.12.2021;Soyuz MS-20;Russia;successful;11:19:34;M;Space career;46
+594;Yozo Hirano;Japan;08.12.2021;Soyuz MS-20;Russia;successful;11:19:34;M;Space career;36
+595;Laura Shepard Churchley;United States;11.12.2021;Blue Origin NS-19;United States;successful;00:00:15;F;tourist;34
+596;Michael Strahan;United States;11.12.2021;Blue Origin NS-19;United States;successful;00:00:15;M;tourist;50
+597;Dylan Taylor;United States;11.12.2021;Blue Origin NS-19;United States;successful;00:00:15;M;tourist;28
+598;Evan Dick;United States;11.12.2021;Blue Origin NS-19;United States;successful;00:00:15;M;tourist;52
+599;Lane Bess;United States;11.12.2021;Blue Origin NS-19;United States;successful;00:00:15;M;tourist;42
+600;Cameron Bess;United States;11.12.2021;Blue Origin NS-19;United States;successful;00:00:15;M;tourist;30
+601;Denis Matveev;Russia;18.03.2022;Soyuz MS-21;Russia;successful;194:17:04;M;Space career;42
+602;Sergey Korsakov;Russia;18.03.2022;Soyuz MS-21;Russia;successful;194:17:04;M;Space career;45
+603;Marty Allen;United States;31.03.2022;Blue Origin NS-20;United States;successful;00:00:50;M;tourist;62
+604;Sharon Hagle;United States;31.03.2022;Blue Origin NS-20;United States;successful;00:00:11;F;tourist;59
+605;Marc Hagle;United States;31.03.2022;Blue Origin NS-20;United States;successful;00:00:11;M;tourist;59
+606;Jim Kitchen;United States;31.03.2022;Blue Origin NS-20;United States;successful;00:00:15;M;tourist;58
+607;George Nield;United States;31.03.2022;Blue Origin NS-20;United States;successful;00:00:03;M;tourist;60
+608;Gary Lai;United States;31.03.2022;Blue Origin NS-20;United States;successful;00:00:11;M;tourist;43
+609;Larry Connor;United States;08.04.2022;Axiom Mission 1;United States;successful;17:01:49;M;Space career;70
+610;Mark Pathy;Canada;08.04.2022;Axiom Mission 1;United States;successful;17:01:49;M;Space career;60
+611;Eytan Stibbe;Israel;08.04.2022;Axiom Mission 1;United States;successful;17:01:49;M;Space career;64
+612;Robert Hines;United States;27.04.2022;SpaceX Crew-4;United States;successful;170:13:03;M;Space career;63
+613;Jessica Watkins;United States;27.04.2022;SpaceX Crew-4;United States;successful;170:13:03;F;Space career;33
+614;Katya Echazarreta;United States;04.06.2022;Blue Origin NS-21;United States;successful;00:00:10;F;tourist;26
+615;Hamish Harding;United Kingdom;04.06.2022;Blue Origin NS-21;United States;successful;00:00:10;M;tourist;55
+616;Victor Correa Hespanha;Brazil;04.06.2022;Blue Origin NS-21;United States;successful;00:00:10;M;tourist;60
+617;Jaison Robinson;United States;04.06.2022;Blue Origin NS-21;United States;successful;00:00:10;M;tourist;61
+618;Victor Vescovo;United States;04.06.2022;Blue Origin NS-21;United States;successful;00:00:10;M;tourist;55
+619;Cai Xuzhe;China;05.06.2022;Shenzhou 14;China;successful;182:09:25;M;Space career;57
+620;Coby Cotton;United States;04.08.2022;Blue Origin NS-22;United States;successful;00:00:10;M;tourist;43
+621;M_rio Ferreira;Portugal;04.08.2022;Blue Origin NS-22;United States;successful;00:00:10;M;tourist;55
+622;Vanessa O'Brien;United Kingdom;04.08.2022;Blue Origin NS-22;United States;successful;00:00:10;F;tourist;47
+623;Clint Kelly III;United States;04.08.2022;Blue Origin NS-22;United States;successful;00:00:10;M;tourist;54
+624;Sara Sabry;Egypt;04.08.2022;Blue Origin NS-22;United States;successful;00:00:10;F;tourist;30
+625;Steve Young;United States;04.08.2022;Blue Origin NS-22;United States;successful;00:00:10;M;tourist;60
+626;Dmitry Petelin;Russia;21.09.2022;Soyuz MS-22;Russia;successful;370:21:23;M;Space career;39
+627;Francisco Rubio;United States;21.09.2022;Soyuz MS-22;Russia;successful;370:21:23;M;Space career;45
+628;Nicole Aunapu Mann;United States;05.10.2022;SpaceX Crew-5;United States;successful;157:10:01;F;Space career;45
+629;Josh A. Cassada;United States;05.10.2022;SpaceX Crew-5;United States;successful;157:10:01;M;Space career;49
+630;Anna Kikina;Russia;05.10.2022;SpaceX Crew-5;United States;successful;157:10:01;F;Space career;38
+631;Deng Qingming;China;29.11.2022;Shenzhou 15;China;upcoming;186:07:25;M;Space career;56
+632;Zhang Lu;China;29.11.2022;Shenzhou 15;China;upcoming;186:07:25;M;Space career;52
+633;Warren Hoburg;United States;02.03.2023;SpaceX Crew-6;United States;upcoming;185:22:43;M;Space career;61
+634;Sultan Al Neyadi;United Arab Emirates;02.03.2023;SpaceX Crew-6;United States;upcoming;185:22:43;M;Space career;41
+635;Andrey Fedyaev;Russia;02.03.2023;SpaceX Crew-6;United States;upcoming;185:22:43;M;Space career;41
+636;John Shoffner;United States;21.05.2023;Axiom Mission 2;United States;upcoming;09:05:27;M;Space career;61
+637;Ali AlQarni;Saudi Arabia;21.05.2023;Axiom Mission 2;United States;upcoming;09:05:27;M;Space career;31
+638;Rayyanah Barnawi;Saudi Arabia;21.05.2023;Axiom Mission 2;United States;upcoming;09:05:27;F;Space career;33
+639;Zhu Yangzhu;China;30.05.2023;Shenzhou 16;China;upcoming;in space;M;Space career;56
+640;Gui Haichao;China;30.05.2023;Shenzhou 16;China;upcoming;in space;M;Space career;50
+641;Jasmin Moghbeli;United States;26.08.2023;SpaceX Crew-7;United States;upcoming;in space;F;Space career;44
+642;Konstantin Borisov;Russia;26.08.2023;SpaceX Crew-7;United States;upcoming;in space;M;Space career;40
+643;Nikolai Chub;Russia;15.09.2023;Soyuz MS-24;Russia;upcoming;in space;M;Space career;40
+644;Loral O'Hara;United States;15.09.2023;Soyuz MS-24;Russia;upcoming;in space;F;Space career;57
