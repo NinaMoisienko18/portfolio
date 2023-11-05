@@ -44,7 +44,7 @@ if selected =="Analysis of world religions":
     with col1:
         st.write(' ')
     with col2:
-        st.image("dataset/stock-religions.jpeg")
+        st.image("stock-religions.jpeg")
     with col3:
         st.write(' ')
         
@@ -66,7 +66,7 @@ if selected =="Analysis of world religions":
     st.write("I selected this dataset to analyse the global spread of religions and forecast changes over the next 30 years. The aim is to examine the evolution of the global religious composition over time")
 
     
-    df = pd.read_csv("dataset/rounded_population.csv")
+    df = pd.read_csv("rounded_population.csv")
     st.write(df)
     st.subheader("To start, we filtered the data and selected rows where Region equals World")
     
@@ -342,7 +342,7 @@ if selected == "Analysis of space travelers":
     with col1:
         st.write(' ')
     with col2:
-        st.image("dataset_space/astronauts.jpeg", width=600)
+        st.image("astronauts.jpeg", width=600)
     with col3:
         st.write(' ')
         
@@ -367,7 +367,7 @@ if selected == "Analysis of space travelers":
 
 
 
-    dataset_space = pd.read_csv("dataset_space/dataset_anls.csv", delimiter=";")
+    dataset_space = pd.read_csv("dataset_anls.csv", delimiter=";")
     st.write(dataset_space)
     st.write("")
     st.write("")
