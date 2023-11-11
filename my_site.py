@@ -44,7 +44,7 @@ if selected =="Analysis of world religions":
     with col1:
         st.write(' ')
     with col2:
-        st.image("stock-religions.jpeg")
+        st.image("dataset/stock-religions.jpeg")
     with col3:
         st.write(' ')
         
@@ -66,7 +66,7 @@ if selected =="Analysis of world religions":
     st.write("I selected this dataset to analyse the global spread of religions and forecast changes over the next 30 years. The aim is to examine the evolution of the global religious composition over time")
 
     
-    df = pd.read_csv("rounded_population.csv")
+    df = pd.read_csv("dataset/rounded_population.csv")
     st.write(df)
     st.subheader("To start, we filtered the data and selected rows where Region equals World")
     
@@ -272,7 +272,7 @@ if selected =="Analysis of world religions":
     st.write("")
     
     
-    with open('Religios.txt', 'r') as f:
+    with open('dataset/Religios.txt', 'r') as f:
         religios_text = f.read()
         
     stopwords = set(STOPWORDS)
@@ -342,7 +342,7 @@ if selected == "Analysis of space travelers":
     with col1:
         st.write(' ')
     with col2:
-        st.image("astronauts.jpeg", width=600)
+        st.image("dataset_space/astronauts.jpeg", width=600)
     with col3:
         st.write(' ')
         
@@ -367,7 +367,7 @@ if selected == "Analysis of space travelers":
 
 
 
-    dataset_space = pd.read_csv("dataset_anls.csv", delimiter=";")
+    dataset_space = pd.read_csv("dataset_space/dataset_anls.csv", delimiter=";")
     st.write(dataset_space)
     st.write("")
     st.write("")
@@ -399,6 +399,17 @@ if selected == "Analysis of space travelers":
 
 
 
+
+
+    data = {
+    'Launching Country': country_flight_count.index,
+    'Flight Count': country_flight_count.values
+}
+    df_flight_counts = pd.DataFrame(data)
+
+    print(df_flight_counts)
+
+
     chart = px.bar(sorted_data, x=sorted_data.index, y='Flight ', color_discrete_sequence=["#023271"]) #create bar
     chart.update_xaxes(tickangle=0) #rotation of country for convinient reading
     chart.update_layout(width=1170, height=600) #set width and height
@@ -407,9 +418,54 @@ if selected == "Analysis of space travelers":
     text=sorted_data.values, # Додаємо кількість польотів як текст на стовпці
     textposition="outside",
     insidetextanchor="end",
-    textfont=dict(color='red', size=20)
+    textfont=dict(color='red', size=20) 
 )
+    chart.update_layout(height=600)
     st.write(chart)
+    
+    
+    
+    
+    new_dataframe_2 = new_dataframe
+    if end_year <= 1991:
+        century_20 = new_dataframe_2[new_dataframe_2["Date"].between(1961, 1991)]
+
+        # Group and count unique nationalities
+        new_df_2 = century_20.groupby("Launching Country")["Flight "].nunique().reset_index(name="Count")
+
+
+        map_1 = px.choropleth(new_df_2, 
+                            locations='Launching Country', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Launching Country',
+                            title=f'Dominant countries by flights to space ({start_year} to {end_year})',
+                            color_continuous_scale='plasma')
+        map_1.update_layout(width=1000, height=500)
+        st.plotly_chart(map_1, use_container_width=True)
+    
+    elif start_year >= 1992 and end_year <= 2023:
+
+    # Filter data for the second time period (1992-2023)
+        century_2021 = new_dataframe[new_dataframe_1["Date"].between(1991, 2023)]
+
+        # Group and count unique nationalities
+        new_df_3 = century_2021.groupby("Launching Country")["Flight "].nunique().reset_index(name="Count")
+
+        # Create a choropleth map for the second time period
+        map_2 = px.choropleth(new_df_3, 
+                            locations='Launching Country', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Launching Country',
+                            title=f'Dominant countries by flights to space ({start_year} to {end_year})',
+                            color_continuous_scale='plasma')
+        map_2.update_layout(width=1000, height=500)
+        st.plotly_chart(map_2, use_container_width=True)
+        
+    
+    
+    
     st.write("#### Conclusion:")
     st.write("From graph above we can see that max count of unique flights have United States - 166, Russia - 74 and Soviet Union - 62, China - 11, US and SU - 1. ")
     
@@ -421,6 +477,7 @@ if selected == "Analysis of space travelers":
     dataset_space["Year"] = dataset_space["Date"].dt.year
     new_dataframe_1 = dataset_space.drop(columns=["Date"]).copy()
     new_dataframe_1 = new_dataframe_1.rename(columns={"Year": "Date"})
+    
     
     
 
@@ -439,6 +496,10 @@ if selected == "Analysis of space travelers":
     insidetextanchor="end",
     textfont=dict(color='red', size=12)
     )
+    
+    
+    
+
     st.plotly_chart(chart, use_container_width=True)
     st.write("#### Conclusion:")
     st.write("We can observe that the highest number of flights occurred in 1985, 1992, 1994, 1995, 2009, 2021 and 2022. The lower number of flights occurred in the period from 2011 to 2020 to compare with others.")
@@ -485,93 +546,104 @@ if selected == "Analysis of space travelers":
     st.write("")
     st.write("")
     st.subheader("Create bar graph to display tourists by gender")
-    df = new_dataframe.loc[new_dataframe["Status"] == "tourist"]
-
-    status_by_gender = df.groupby("Gender")["Status"].count()
-    status_by_gender.index = status_by_gender.index.map({'F': 'Women', 'M': 'Men'})
-    data = pd.DataFrame({'Gender': status_by_gender.index, 'Count': status_by_gender})
-    chart = px.bar(data, x='Gender', y='Count', title='Count of Tourists in Space by Gender',
-                text='Count', color='Gender', color_discrete_sequence=['fuchsia', '#0074d9'])
-
-    st.plotly_chart(chart, use_container_width=True)
-    st.write("#### Conclusion:")
-    st.write("Based on the bar chart, the majority of space tourists were male. Out of a total of 36 tourists, 29 were male and only 7 were female.")
-
-
-    st.write("")
-    st.write("")
-    st.subheader("Create bar graph to display tourist flights")
     
+    if end_year < 2001:
+        st.write("")
+        st.write("")
+        st.markdown("<p style='color:red'> !! There are no tourists during this period !! </p>", unsafe_allow_html=True)
+
+        
+    else:
+        df = new_dataframe.loc[new_dataframe["Status"] == "tourist"]
+
+        status_by_gender = df.groupby("Gender")["Status"].count()
+        status_by_gender.index = status_by_gender.index.map({'F': 'Women', 'M': 'Men'})
+        data = pd.DataFrame({'Gender': status_by_gender.index, 'Count': status_by_gender})
+        chart = px.bar(data, x='Gender', y='Count', title='Count of Tourists in Space by Gender',
+                    text='Count', color='Gender', color_discrete_sequence=['fuchsia', '#0074d9'])
+
+        st.plotly_chart(chart, use_container_width=True)
+        st.write("#### Conclusion:")
+        st.write("Based on the bar chart, the majority of space tourists were male. Out of a total of 36 tourists, 29 were male and only 7 were female.")
+
+
+        st.write("")
+        st.write("")
+        st.subheader("Create bar graph to display tourist flights")
+        
+
     
-    # dt = df.groupby(["Flight ", "Date"])["Launching Country"].count()
-    # st.write(dt)
+        # dt = df.groupby(["Flight ", "Date"])["Launching Country"].count()
+        # st.write(dt)
+        
+        flights = df["Flight "].unique()
+        # st.write(flights)
+        
+        dt = df.groupby("Launching Country")["Flight "].nunique()
+        # st.write(dt)
+        dt = dt.reset_index()
+        dt = dt.rename(columns={"Flight ": "Count"})
+
+        # Побудова графіку
+        chart = px.bar(dt, x='Launching Country', y='Count', title='Count of flights',
+                        text='Count')
+        chart.update_traces(textfont_size=35)
+        chart.update_layout(height=350) 
+        st.plotly_chart(chart, use_container_width=True)
+        
+
+
+        st.write("")
+        st.write("")
+        st.subheader("Create bar graph to display tourists by years")
     
-    flights = df["Flight "].unique()
-    # st.write(flights)
-    
-    dt = df.groupby("Launching Country")["Flight "].nunique()
-    # st.write(dt)
-    dt = dt.reset_index()
-    dt = dt.rename(columns={"Flight ": "Count"})
+  
+        sorted_df = df.sort_values(by='Years of a person during the flight', ascending=True)
 
-    # Побудова графіку
-    chart = px.bar(dt, x='Launching Country', y='Count', title='Count of flights',
-                    text='Count')
-    chart.update_traces(textfont_size=35) 
-    st.plotly_chart(chart, use_container_width=True)
-    
+        chart = px.bar(sorted_df, x='Years of a person during the flight', y='Name', orientation='h', text='Years of a person during the flight',
+                    title='Tourists by age (oldest to youngest)', hover_data=['Nationality', 'Flight ', "Gender", "Time in space(generally for person) DD:HH:MM ",
+                                                                            "Date"], color_discrete_sequence=["#0074d9"])
+
+        chart.update_layout(xaxis_title='Years of a Person During the Flight',
+                        yaxis_title='Name')
+        
+        chart.update_traces(textangle=0)
 
 
-    st.write("")
-    st.write("")
-    st.subheader("Create bar graph to display tourists by years")
+        # st.plotly_chart(chart, use_container_width=True)
+        chart.update_layout(height=800 , width=1130)
+        st.write(chart)
+        st.write("#### Conclusion:")
+        st.write("The majority of tourists who go into space are elderly people aged 50 to 60. Among the oldest tourists: William Shatner - 90 years old and Wally Funk - 82 years old. Among the youngest: Oliver Daemen - 18 years old and Anissa Melanie - 23 years old.")
+        st.write("")
+        st.write("")
+        
+        st.subheader("TOP-5 oldest tourists in space")
 
-    sorted_df = df.sort_values(by='Years of a person during the flight', ascending=True)
-
-    chart = px.bar(sorted_df, x='Years of a person during the flight', y='Name', orientation='h', text='Years of a person during the flight',
-                title='Tourists by age (oldest to youngest)', hover_data=['Nationality', 'Flight ', "Gender", "Time in space(generally for person) DD:HH:MM ",
-                                                                        "Date"], color_discrete_sequence=["#0074d9"])
-
-    chart.update_layout(xaxis_title='Years of a Person During the Flight',
-                    yaxis_title='Name')
-    
-    chart.update_traces(textangle=0)
-
-
-    # st.plotly_chart(chart, use_container_width=True)
-    chart.update_layout(height=800 , width=1130)
-    st.write(chart)
-    st.write("#### Conclusion:")
-    st.write("The majority of tourists who go into space are elderly people aged 50 to 60. Among the oldest tourists: William Shatner - 90 years old and Wally Funk - 82 years old. Among the youngest: Oliver Daemen - 18 years old and Anissa Melanie - 23 years old.")
-    st.write("")
-    st.write("")
-    
-    st.subheader("TOP-5 oldest tourists in space")
-
-    sorted_df = df.sort_values(by='Years of a person during the flight', ascending=True)
-    df_k = sorted_df.tail(5)
-    chart = px.bar(df_k, x='Years of a person during the flight', y='Name', orientation='h', text='Years of a person during the flight',
-                title='Oldest tourists by age', hover_data=['Nationality', 'Flight ', "Gender", "Time in space(generally for person) DD:HH:MM ",
-                                                        "Date"], color_discrete_sequence=["#0074d9"])
-
-    chart.update_layout(xaxis_title='Years of a Person During the Flight',
-                    yaxis_title='Name', width=1000, height=400)
-    st.plotly_chart(chart, use_container_width=True)
-
-    st.write("")
-    st.write("")
-    st.subheader("TOP-5 youngest tourists in space")
-
-    sorted_df = df.sort_values(by='Years of a person during the flight', ascending=True)
-    df_k = sorted_df.head(5)
-    chart = px.bar(df_k, x='Years of a person during the flight', y='Name', orientation='h', text='Years of a person during the flight',
-                title='Youngest tourists by age', hover_data=['Nationality', 'Flight ', "Gender", "Time in space(generally for person) DD:HH:MM ",
+        sorted_df = df.sort_values(by='Years of a person during the flight', ascending=True)
+        df_k = sorted_df.tail(5)
+        chart = px.bar(df_k, x='Years of a person during the flight', y='Name', orientation='h', text='Years of a person during the flight',
+                    title='Oldest tourists by age', hover_data=['Nationality', 'Flight ', "Gender", "Time in space(generally for person) DD:HH:MM ",
                                                             "Date"], color_discrete_sequence=["#0074d9"])
 
-    chart.update_layout(xaxis_title='Years of a Person During the Flight',
-                    yaxis_title='Name', width=1000, height=400)
+        chart.update_layout(xaxis_title='Years of a Person During the Flight',
+                        yaxis_title='Name', width=1000, height=400)
+        st.plotly_chart(chart, use_container_width=True)
 
-    st.plotly_chart(chart, use_container_width=True)
+        st.write("")
+        st.write("")
+        st.subheader("TOP-5 youngest tourists in space")
+
+        sorted_df = df.sort_values(by='Years of a person during the flight', ascending=True)
+        df_k = sorted_df.head(5)
+        chart = px.bar(df_k, x='Years of a person during the flight', y='Name', orientation='h', text='Years of a person during the flight',
+                    title='Youngest tourists by age', hover_data=['Nationality', 'Flight ', "Gender", "Time in space(generally for person) DD:HH:MM ",
+                                                                "Date"], color_discrete_sequence=["#0074d9"])
+
+        chart.update_layout(xaxis_title='Years of a Person During the Flight',
+                        yaxis_title='Name', width=1000, height=400)
+
+        st.plotly_chart(chart, use_container_width=True)
 
     st.write("")
     st.write("")
