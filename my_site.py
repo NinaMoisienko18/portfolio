@@ -44,7 +44,7 @@ if selected =="Analysis of world religions":
     with col1:
         st.write(' ')
     with col2:
-        st.image("stock-religions.jpeg")
+        st.image("dataset/stock-religions.jpeg")
     with col3:
         st.write(' ')
         
@@ -66,7 +66,7 @@ if selected =="Analysis of world religions":
     st.write("I selected this dataset to analyse the global spread of religions and forecast changes over the next 30 years. The aim is to examine the evolution of the global religious composition over time")
 
     
-    df = pd.read_csv("rounded_population.csv")
+    df = pd.read_csv("dataset/rounded_population.csv")
     st.write(df)
     st.subheader("To start, we filtered the data and selected rows where Region equals World")
     
@@ -272,7 +272,7 @@ if selected =="Analysis of world religions":
     st.write("")
     
     
-    with open('Religios.txt', 'r') as f:
+    with open('dataset/Religios.txt', 'r') as f:
         religios_text = f.read()
         
     stopwords = set(STOPWORDS)
@@ -342,7 +342,7 @@ if selected == "Analysis of space travelers":
     with col1:
         st.write(' ')
     with col2:
-        st.image("astronauts.jpeg", width=600)
+        st.image("dataset_space/astronauts.jpeg", width=600)
     with col3:
         st.write(' ')
         
@@ -367,7 +367,7 @@ if selected == "Analysis of space travelers":
 
 
 
-    dataset_space = pd.read_csv("dataset_anls.csv", delimiter=";")
+    dataset_space = pd.read_csv("dataset_space/dataset_anls.csv", delimiter=";")
     st.write(dataset_space)
     st.write("")
     st.write("")
@@ -440,7 +440,8 @@ if selected == "Analysis of space travelers":
                             color='Count',
                             hover_name='Launching Country',
                             title=f'Dominant countries by flights to space ({start_year} to {end_year})',
-                            color_continuous_scale='plasma')
+                            color_continuous_scale='plasma',
+                            labels={'Launching Country': 'Country Name'})
         map_1.update_layout(width=1000, height=500)
         st.plotly_chart(map_1, use_container_width=True)
     
@@ -459,10 +460,46 @@ if selected == "Analysis of space travelers":
                             color='Count',
                             hover_name='Launching Country',
                             title=f'Dominant countries by flights to space ({start_year} to {end_year})',
-                            color_continuous_scale='plasma')
+                            color_continuous_scale='plasma',
+                            labels={'Launching Country': 'Country Name'})
         map_2.update_layout(width=1000, height=500)
         st.plotly_chart(map_2, use_container_width=True)
         
+    else:
+        century_20 = new_dataframe_2[new_dataframe_2["Date"].between(1961, 1991)]
+
+        # Group and count unique nationalities
+        new_df_2 = century_20.groupby("Launching Country")["Flight "].nunique().reset_index(name="Count")
+
+
+        map_1 = px.choropleth(new_df_2, 
+                            locations='Launching Country', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Launching Country',
+                            title=f'Dominant countries by flights to space ({start_year} to 1991)',
+                            color_continuous_scale='plasma',
+                            labels={'Launching Country': 'Country Name'})
+        map_1.update_layout(width=1000, height=500)
+        st.plotly_chart(map_1, use_container_width=True)
+        
+        
+        century_2021 = new_dataframe[new_dataframe_1["Date"].between(1991, 2023)]
+
+        # Group and count unique nationalities
+        new_df_3 = century_2021.groupby("Launching Country")["Flight "].nunique().reset_index(name="Count")
+
+        # Create a choropleth map for the second time period
+        map_2 = px.choropleth(new_df_3, 
+                            locations='Launching Country', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Launching Country',
+                            title=f'Dominant countries by flights to space (1992 to {end_year})',
+                            color_continuous_scale='plasma',
+                            labels={'Launching Country': 'Country Name'})
+        map_2.update_layout(width=1000, height=500)
+        st.plotly_chart(map_2, use_container_width=True)
     
     
     
@@ -693,40 +730,71 @@ if selected == "Analysis of space travelers":
     st.subheader("Nationallity of people that in space")
     
     new_dataframe_1 = new_dataframe
-    
-    century_20 = new_dataframe_1[new_dataframe_1["Date"].between(1961, 1991)]
+    if end_year <= 1991:
+        century_20 = new_dataframe_1[new_dataframe_1["Date"].between(1961, 1991)]
 
-    # Group and count unique nationalities
-    new_df_1 = century_20.groupby("Nationality").size().reset_index(name="Count")
+        # Group and count unique nationalities
+        new_df_1 = century_20.groupby("Nationality").size().reset_index(name="Count")
 
 
-    map_1 = px.choropleth(new_df_1, 
-                        locations='Nationality', 
-                        locationmode='country names',
-                        color='Count',
-                        hover_name='Nationality',
-                        title='Number of people that were in space by Nationality (1961 to 1991)',
-                        color_continuous_scale='plasma')
-    map_1.update_layout(width=1000, height=800)
-    st.plotly_chart(map_1, use_container_width=True)
+        map_1 = px.choropleth(new_df_1, 
+                            locations='Nationality', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Nationality',
+                            title=f'Number of people that were in space by Nationality ({start_year} to {end_year})',
+                            color_continuous_scale='plasma')
+        map_1.update_layout(width=1000, height=800)
+        st.plotly_chart(map_1, use_container_width=True)
+    elif start_year > 1991 and end_year <= 2023:
+        # Filter data for the second time period (1992-2023)
+        century_2021 = new_dataframe[new_dataframe_1["Date"].between(1992, 2023)]
 
-    # Filter data for the second time period (1992-2023)
-    century_2021 = new_dataframe[new_dataframe_1["Date"].between(1992, 2023)]
+        # Group and count unique nationalities
+        new_df_2 = century_2021.groupby("Nationality").size().reset_index(name="Count")
 
-    # Group and count unique nationalities
-    new_df_2 = century_2021.groupby("Nationality").size().reset_index(name="Count")
+        # Create a choropleth map for the second time period
+        map_2 = px.choropleth(new_df_2, 
+                            locations='Nationality', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Nationality',
+                            title=f'Number of people by Nationality that were in space ({start_year} to {end_year})',
+                            color_continuous_scale='plasma')
+        map_2.update_layout(width=1000, height=800)
+        st.plotly_chart(map_2, use_container_width=True)
 
-    # Create a choropleth map for the second time period
-    map_2 = px.choropleth(new_df_2, 
-                        locations='Nationality', 
-                        locationmode='country names',
-                        color='Count',
-                        hover_name='Nationality',
-                        title='Number of people by Nationality that were in space (1992 to 2023)',
-                        color_continuous_scale='plasma')
-    map_2.update_layout(width=1000, height=800)
-    st.plotly_chart(map_2, use_container_width=True)
+    else:
+        century_20 = new_dataframe_1[new_dataframe_1["Date"].between(1961, 1991)]
 
-    
+        # Group and count unique nationalities
+        new_df_1 = century_20.groupby("Nationality").size().reset_index(name="Count")
+
+        gap_year = 1991
+        map_1 = px.choropleth(new_df_1, 
+                            locations='Nationality', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Nationality',
+                            title=f'Number of people that were in space by Nationality ({start_year} to {gap_year})',
+                            color_continuous_scale='plasma')
+        map_1.update_layout(width=1000, height=800)
+        st.plotly_chart(map_1, use_container_width=True)
+        
+        century_2021 = new_dataframe[new_dataframe_1["Date"].between(1992, 2023)]
+
+        # Group and count unique nationalities
+        new_df_2 = century_2021.groupby("Nationality").size().reset_index(name="Count")
+
+        # Create a choropleth map for the second time period
+        map_2 = px.choropleth(new_df_2, 
+                            locations='Nationality', 
+                            locationmode='country names',
+                            color='Count',
+                            hover_name='Nationality',
+                            title=f'Number of people by Nationality that were in space (1992 to {end_year})',
+                            color_continuous_scale='plasma')
+        map_2.update_layout(width=1000, height=800)
+        st.plotly_chart(map_2, use_container_width=True)
     st.write("#### Conclusion:")
     st.write("On the first map, we can see that most of the people by nationality who have been in space are from the United States and the Soviet Union. From the second map we can see that most of the people who have been in space by nationality are from the United States, Russia, Canada, China and Japan.")
